@@ -1,0 +1,767 @@
+{
+  "reviewedAt": "2026-09-29",
+  "baseline": "Gaffer 1.7.3.0",
+  "collectionScope": "Six supplied YouTube videos and the first 30 public entries returned from GafferHQ Vimeo; not an exhaustive archive.",
+  "videos": [
+    {
+      "platform": "youtube",
+      "id": "qJWtai73TB8",
+      "url": "https://www.youtube.com/watch?v=qJWtai73TB8",
+      "title": "Gaffer Training - The Basics",
+      "publisher": "Trixter Film",
+      "uploadDate": "2024-09-30",
+      "durationSeconds": 2665,
+      "historical": false,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "First Steps",
+          "end_time": 858
+        },
+        {
+          "start_time": 858,
+          "title": "Assignments & Filters",
+          "end_time": 1913
+        },
+        {
+          "start_time": 1913,
+          "title": "3D & 2D Viewer Controls",
+          "end_time": 2665
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "id": "aKUMRKPbdZI",
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI",
+      "title": "Gaffer Training - Intermediate",
+      "publisher": "Trixter Film",
+      "uploadDate": "2024-09-30",
+      "durationSeconds": 5568,
+      "historical": false,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Contexts",
+          "end_time": 1454
+        },
+        {
+          "start_time": 1454,
+          "title": "Spreadsheets",
+          "end_time": 2777
+        },
+        {
+          "start_time": 2777,
+          "title": "Box Nodes & Expressions",
+          "end_time": 5568
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "id": "lAgBcOFMf5k",
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k",
+      "title": "Introduction to Gaffer and Arnold | Open Source VFX / CGI Basics",
+      "publisher": "Arvid Schneider",
+      "uploadDate": "2024-10-24",
+      "durationSeconds": 3905,
+      "historical": false,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 117
+        },
+        {
+          "start_time": 117,
+          "title": "Download / Start",
+          "end_time": 792
+        },
+        {
+          "start_time": 792,
+          "title": "Scene Inspector",
+          "end_time": 1028
+        },
+        {
+          "start_time": 1028,
+          "title": "Basics",
+          "end_time": 1684
+        },
+        {
+          "start_time": 1684,
+          "title": "Basic Intro - Arnold",
+          "end_time": 2508
+        },
+        {
+          "start_time": 2508,
+          "title": "Lighting and Shading",
+          "end_time": 3603
+        },
+        {
+          "start_time": 3603,
+          "title": "Overview & Outro",
+          "end_time": 3905
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "id": "RiPmGDhxjGw",
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw",
+      "title": "Shading & Lighting with Gaffer and Arnold | Level Up Your VFX Game",
+      "publisher": "Arvid Schneider",
+      "uploadDate": "2024-11-04",
+      "durationSeconds": 1804,
+      "historical": false,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 50
+        },
+        {
+          "start_time": 50,
+          "title": "Preparing the Scene for Shading",
+          "end_time": 338
+        },
+        {
+          "start_time": 338,
+          "title": "Shading Overview and QuickConnect",
+          "end_time": 504
+        },
+        {
+          "start_time": 504,
+          "title": "Using QuickConnect",
+          "end_time": 564
+        },
+        {
+          "start_time": 564,
+          "title": "Lookdev",
+          "end_time": 1418
+        },
+        {
+          "start_time": 1418,
+          "title": "Lighting",
+          "end_time": 1804
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "id": "6X7Q4pnUiJk",
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk",
+      "title": "DigiPro 2016 - Gaffer | An Open-Source Application Framework for VFX",
+      "publisher": "Pipeliner",
+      "uploadDate": "2020-04-29",
+      "durationSeconds": 1312,
+      "historical": true,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 29
+        },
+        {
+          "start_time": 29,
+          "title": "What is Gaffer?",
+          "end_time": 102
+        },
+        {
+          "start_time": 102,
+          "title": "BSD vs Proprietary",
+          "end_time": 123
+        },
+        {
+          "start_time": 123,
+          "title": "Focus of the Talk",
+          "end_time": 134
+        },
+        {
+          "start_time": 134,
+          "title": "Gaffer at Image Engine",
+          "end_time": 172
+        },
+        {
+          "start_time": 172,
+          "title": "Gaffer in the Wild",
+          "end_time": 211
+        },
+        {
+          "start_time": 211,
+          "title": "Glossary",
+          "end_time": 242
+        },
+        {
+          "start_time": 242,
+          "title": "Nodes & Plugs",
+          "end_time": 267
+        },
+        {
+          "start_time": 267,
+          "title": "Computation",
+          "end_time": 294
+        },
+        {
+          "start_time": 294,
+          "title": "Context",
+          "end_time": 321
+        },
+        {
+          "start_time": 321,
+          "title": "Multithreading",
+          "end_time": 347
+        },
+        {
+          "start_time": 347,
+          "title": "Image Processing",
+          "end_time": 395
+        },
+        {
+          "start_time": 395,
+          "title": "Scene Generation",
+          "end_time": 464
+        },
+        {
+          "start_time": 464,
+          "title": "Task Dispatching",
+          "end_time": 512
+        },
+        {
+          "start_time": 512,
+          "title": "Broad Scope of Work",
+          "end_time": 547
+        },
+        {
+          "start_time": 547,
+          "title": "Jabuka: Asset Management",
+          "end_time": 572
+        },
+        {
+          "start_time": 572,
+          "title": "Default Workflow",
+          "end_time": 608
+        },
+        {
+          "start_time": 608,
+          "title": "Custom Workflow",
+          "end_time": 632
+        },
+        {
+          "start_time": 632,
+          "title": "Bundle Role View",
+          "end_time": 657
+        },
+        {
+          "start_time": 657,
+          "title": "Publish & QC",
+          "end_time": 677
+        },
+        {
+          "start_time": 677,
+          "title": "Bundle Render Profile",
+          "end_time": 785
+        },
+        {
+          "start_time": 785,
+          "title": "Look Development",
+          "end_time": 806
+        },
+        {
+          "start_time": 806,
+          "title": "Hero LookDev Box",
+          "end_time": 849
+        },
+        {
+          "start_time": 849,
+          "title": "Grizzly: Plugin for Gaffer",
+          "end_time": 867
+        },
+        {
+          "start_time": 867,
+          "title": "Lighting Templates",
+          "end_time": 903
+        },
+        {
+          "start_time": 903,
+          "title": "IPR in Caribou",
+          "end_time": 944
+        },
+        {
+          "start_time": 944,
+          "title": "Multishot Lighting Profiles",
+          "end_time": 1016
+        },
+        {
+          "start_time": 1016,
+          "title": "Who is involved today?",
+          "end_time": 1068
+        },
+        {
+          "start_time": 1068,
+          "title": "What's Next?",
+          "end_time": 1099
+        },
+        {
+          "start_time": 1099,
+          "title": "Next time....",
+          "end_time": 1109
+        },
+        {
+          "start_time": 1109,
+          "title": "Jabuka URL Nodes",
+          "end_time": 1151
+        },
+        {
+          "start_time": 1151,
+          "title": "Jabuka Scene Builder",
+          "end_time": 1206
+        },
+        {
+          "start_time": 1206,
+          "title": "What can Gaffer do for me? 4",
+          "end_time": 1235
+        },
+        {
+          "start_time": 1235,
+          "title": "So how can I use it today?",
+          "end_time": 1253
+        },
+        {
+          "start_time": 1253,
+          "title": "Is it hard to use?",
+          "end_time": 1269
+        },
+        {
+          "start_time": 1269,
+          "title": "Can I make custom nodes? 9",
+          "end_time": 1280
+        },
+        {
+          "start_time": 1280,
+          "title": "Can I change the guts?",
+          "end_time": 1312
+        }
+      ],
+      "eventYear": 2016,
+      "originalSource": "https://vimeo.com/201047816"
+    },
+    {
+      "platform": "youtube",
+      "id": "Edod6s93Ogk",
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk",
+      "title": "Gaffer: Open Source Lookdev, Lighting, and Automation - Murray Stevenson, Cinesite",
+      "publisher": "Academy Software Foundation",
+      "uploadDate": "2023-08-10",
+      "durationSeconds": 635,
+      "historical": true,
+      "evidence": "publisher metadata and English automatic captions; selected sections reviewed; visuals and graph reproduction pending",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 133
+        },
+        {
+          "start_time": 133,
+          "title": "History",
+          "end_time": 159
+        },
+        {
+          "start_time": 159,
+          "title": "Production",
+          "end_time": 200
+        },
+        {
+          "start_time": 200,
+          "title": "Download",
+          "end_time": 266
+        },
+        {
+          "start_time": 266,
+          "title": "Usage",
+          "end_time": 329
+        },
+        {
+          "start_time": 329,
+          "title": "Community",
+          "end_time": 386
+        },
+        {
+          "start_time": 386,
+          "title": "Development",
+          "end_time": 426
+        },
+        {
+          "start_time": 426,
+          "title": "Release",
+          "end_time": 493
+        },
+        {
+          "start_time": 493,
+          "title": "Gaffer 133",
+          "end_time": 531
+        },
+        {
+          "start_time": 531,
+          "title": "Light manipulator",
+          "end_time": 553
+        },
+        {
+          "start_time": 553,
+          "title": "USD Lux lights",
+          "end_time": 569
+        },
+        {
+          "start_time": 569,
+          "title": "Roadmap",
+          "end_time": 599
+        },
+        {
+          "start_time": 599,
+          "title": "Getting Started",
+          "end_time": 623
+        },
+        {
+          "start_time": 623,
+          "title": "Contact Us",
+          "end_time": 635
+        }
+      ]
+    },
+    {
+      "platform": "vimeo",
+      "id": "1131945768",
+      "url": "https://vimeo.com/1131945768",
+      "title": "Gaffer User Group - October 2025",
+      "publisher": "Gaffer",
+      "uploadDate": "2025-10-29 23:33:41",
+      "durationSeconds": 3022,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "1036919633",
+      "url": "https://vimeo.com/1036919633",
+      "title": "Gaffer User Group - December 2024",
+      "publisher": "Gaffer",
+      "uploadDate": "2024-12-06 20:12:29",
+      "durationSeconds": 4010,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "923093356",
+      "url": "https://vimeo.com/923093356",
+      "title": "Gaffer User Group - March 2024",
+      "publisher": "Gaffer",
+      "uploadDate": "2024-03-13 17:13:43",
+      "durationSeconds": 4254,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739873644",
+      "url": "https://vimeo.com/739873644",
+      "title": "Gaffer 1.0 Update",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-16 01:35:53",
+      "durationSeconds": 509,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739873307",
+      "url": "https://vimeo.com/739873307",
+      "title": "Contexts and Spreadsheets",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-16 01:33:53",
+      "durationSeconds": 540,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739832505",
+      "url": "https://vimeo.com/739832505",
+      "title": "Gaffer at Cinesite Feature Animation",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-15 21:48:38",
+      "durationSeconds": 843,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739832240",
+      "url": "https://vimeo.com/739832240",
+      "title": "Gaffer at Phantom FX",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-15 21:47:28",
+      "durationSeconds": 668,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739832094",
+      "url": "https://vimeo.com/739832094",
+      "title": "Gaffer at UFX",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-15 21:46:33",
+      "durationSeconds": 999,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "739829903",
+      "url": "https://vimeo.com/739829903",
+      "title": "Intro to Gaffer - 2022",
+      "publisher": "Gaffer",
+      "uploadDate": "2022-08-15 21:35:29",
+      "durationSeconds": 634,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "442980215",
+      "url": "https://vimeo.com/442980215",
+      "title": "Scene View Inspector: An introduction",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-07-30 05:07:39",
+      "durationSeconds": 146,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "442980018",
+      "url": "https://vimeo.com/442980018",
+      "title": "Scene View Inspector: Edit Scopes",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-07-30 05:06:49",
+      "durationSeconds": 500,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "424432020",
+      "url": "https://vimeo.com/424432020",
+      "title": "Spreadsheet node in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-05-30 22:44:28",
+      "durationSeconds": 64,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "404580598",
+      "url": "https://vimeo.com/404580598",
+      "title": "A quick introduction to Edit Scopes",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-04-06 08:18:04",
+      "durationSeconds": 441,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "398270362",
+      "url": "https://vimeo.com/398270362",
+      "title": "Tool precision adjustments",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-03-17 12:06:29",
+      "durationSeconds": 105,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "398270290",
+      "url": "https://vimeo.com/398270290",
+      "title": "Crop Window adjustment from Image view",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-03-17 12:06:13",
+      "durationSeconds": 122,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "398270098",
+      "url": "https://vimeo.com/398270098",
+      "title": "Viewer Area Light improvements",
+      "publisher": "Gaffer",
+      "uploadDate": "2020-03-17 12:05:40",
+      "durationSeconds": 288,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "368922654",
+      "url": "https://vimeo.com/368922654",
+      "title": "Object-to-surface tools in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-10-25 20:41:33",
+      "durationSeconds": 72,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "368920217",
+      "url": "https://vimeo.com/368920217",
+      "title": "Editor linking and Editor Focus menu in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-10-25 20:19:13",
+      "durationSeconds": 134,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "354089547",
+      "url": "https://vimeo.com/354089547",
+      "title": "UV Inspector in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-08-15 17:21:27",
+      "durationSeconds": 210,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "354089529",
+      "url": "https://vimeo.com/354089529",
+      "title": "Draggable tabs and panels in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-08-15 17:21:22",
+      "durationSeconds": 79,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "354089521",
+      "url": "https://vimeo.com/354089521",
+      "title": "Editor linking and following in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-08-15 17:21:17",
+      "durationSeconds": 213,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "354088506",
+      "url": "https://vimeo.com/354088506",
+      "title": "SetVisualiser node in Gaffer",
+      "publisher": "Gaffer",
+      "uploadDate": "2019-08-15 17:14:37",
+      "durationSeconds": 102,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "291543603",
+      "url": "https://vimeo.com/291543603",
+      "title": "SIGGRAPH 2018 - Gaffer BOF",
+      "publisher": "Gaffer",
+      "uploadDate": "2018-09-24 13:27:05",
+      "durationSeconds": 3351,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "202088156",
+      "url": "https://vimeo.com/202088156",
+      "title": "Introduction to Gaffer - GafferBot Lighting and LookDev",
+      "publisher": "Gaffer",
+      "uploadDate": "2017-02-01 14:37:10",
+      "durationSeconds": 1178,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "201047816",
+      "url": "https://vimeo.com/201047816",
+      "title": "DigiPro 2016 - Gaffer | An Open-Source Application Framework for VFX",
+      "publisher": "Gaffer",
+      "uploadDate": "2017-01-25 16:46:06",
+      "durationSeconds": 1312,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "127102527",
+      "url": "https://vimeo.com/127102527",
+      "title": "07.DispatcherFramework",
+      "publisher": "Gaffer",
+      "uploadDate": "2015-05-06 19:58:55",
+      "durationSeconds": 202,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "127102526",
+      "url": "https://vimeo.com/127102526",
+      "title": "08.StatusUpdate-RoadMap2015",
+      "publisher": "Gaffer",
+      "uploadDate": "2015-05-06 19:58:55",
+      "durationSeconds": 268,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "127102525",
+      "url": "https://vimeo.com/127102525",
+      "title": "06.LightingRendering-Caribou",
+      "publisher": "Gaffer",
+      "uploadDate": "2015-05-06 19:58:55",
+      "durationSeconds": 604,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "127102425",
+      "url": "https://vimeo.com/127102425",
+      "title": "05.ComputationFramework",
+      "publisher": "Gaffer",
+      "uploadDate": "2015-05-06 19:57:43",
+      "durationSeconds": 418,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    },
+    {
+      "platform": "vimeo",
+      "id": "127102424",
+      "url": "https://vimeo.com/127102424",
+      "title": "04.LookDevelopment-ShaderPalettes",
+      "publisher": "Gaffer",
+      "uploadDate": "2015-05-06 19:57:42",
+      "durationSeconds": 228,
+      "evidence": "public collection title and oEmbed publisher metadata only; video content not reviewed",
+      "metadataError": null
+    }
+  ]
+}

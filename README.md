@@ -79,11 +79,26 @@ Start with tasks you can see in the viewport or render. Save the API references 
 
 ## Videos and Demonstrations
 
+### Artist Training
+
+- [Gaffer Training - The Basics](https://www.youtube.com/watch?v=qJWtai73TB8) - Trixter Film's 2024 onboarding session covering scene assembly, assignments, filters and viewer controls; includes studio-specific tools.
+- [Gaffer Training - Intermediate](https://www.youtube.com/watch?v=aKUMRKPbdZI) - Trixter Film's 2024 follow-up covering contexts, spreadsheets, boxes and expressions; start after lighting one scene.
+- [Introduction to Gaffer and Arnold](https://www.youtube.com/watch?v=lAgBcOFMf5k) - Arvid Schneider's 2024 introduction from an Image Engine lighting supervisor, covering setup, inspection, Arnold rendering and light edits.
+- [Shading and Lighting with Gaffer and Arnold](https://www.youtube.com/watch?v=RiPmGDhxjGw) - Arvid Schneider's 2024 dragon look-development exercise using procedural masks and light placement; its QuickConnect helper is an extension.
+
+[Video Learning Notes](docs/video-notes.md) contains chapter links, caption-based findings and suggested exercises. These recordings predate the 1.7.3.0 baseline; their graphs have not been reproduced here. Creator-provided scene files may require paid membership.
+
+### Production and Development
+
+- [Gaffer User Group - October 2025](https://vimeo.com/1131945768) - GafferHQ's publisher description lists Gaffer 1.5 and 1.6 updates, GafferRenderMan and a Warfare production session.
+- [Gaffer User Group - December 2024](https://vimeo.com/1036919633) - GafferHQ's publisher description lists Gaffer 1.4 and 1.5 updates plus GafferRenderMan and GafferML previews.
+- [Gaffer User Group - March 2024](https://vimeo.com/923093356) - GafferHQ's publisher description lists production work, Gaffer 1.3 updates and a preview of 1.4.
+
 - [GafferHQ on Vimeo](https://vimeo.com/gafferhq) - First-party presentations and demonstrations; check the date before copying a workflow.
 - [Multi-Shot Workflows for Episodic Animation and VFX](https://blog.gafferhq.org/demo-multi-shot-workflows-for-episodic-animation-vfx/) - GafferHQ's 2024 introduction to Rupert Thorpe's production workflow, with an embedded YouTube demonstration.
 - [Multi-Shot Workflow on YouTube](https://www.youtube.com/watch?v=jtjDbAHbPuE) - Direct video link for the same demonstration; useful after you can light a single scene.
 
-Pause at a node connection, predict its job, and rebuild a small piece in Gaffer. Historical videos and resources needing further review are tracked separately in [Resource Review](docs/resource-review.md).
+Pause at a node connection, predict its job, and rebuild a small piece in Gaffer. [Vimeo Collection Notes](docs/vimeo-resources.md) separates company talks, focused demonstrations and historical development recordings. Historical videos and resources needing further review are tracked separately in [Resource Review](docs/resource-review.md).
 
 ## Examples and Sample Assets
 

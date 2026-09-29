@@ -4,6 +4,12 @@ Keep uncertain or historical resources here until their current usefulness has b
 
 ## Historical Instruction
 
+- [DigiPro 2016 - Gaffer](https://www.youtube.com/watch?v=6X7Q4pnUiJk) - Pipeliner's 2020 repost of a 2016 talk; useful for architecture and studio workflow history, with obsolete feature-status claims.
+- [Gaffer: Open Source Lookdev, Lighting, and Automation](https://www.youtube.com/watch?v=Edod6s93Ogk) - Murray Stevenson's 2023 ASWF presentation; useful production and development context, with dated survey and roadmap information.
+- [GafferHQ Historical Vimeo Resources](vimeo-resources.md) - Company talks and focused demonstrations from earlier releases; publisher descriptions reviewed, video content review pending.
+
+[Video Learning Notes](video-notes.md) extracts caption-grounded findings from both supplied historical YouTube recordings and identifies what must not be carried into current lessons.
+
 - [GafferBot Lighting and LookDev Walkthrough](https://blog.gafferhq.org/introduction-to-gaffer-gafferbot-lighting-and-lookdev/) - Official February 2017 walkthrough; useful historical context, but current controls and renderer behavior require comparison.
 - [Gaffer Wiki Learning Resources](https://gaffer.wiki/wiki/Learning_resources) - Community index including Brian Hanke's introduction and embedded videos; indexed content was available, but direct access timed out during earlier research.
 

@@ -14,7 +14,7 @@ Pin Gaffer documentation to 1.7.3.0 where practical. Label historical instructio
 - Link checked: the URL responded during the recorded check.
 - Hands-on checked: someone reproduced the relevant task and recorded versions and results.
 
-The current foundation has source review and link checks. It does not claim hands-on review of all tutorials, assets, integrations or renderer setup. External video links were identified from GafferHQ pages; their full contents were not transcribed or rated.
+The current foundation has source review and link checks. It does not claim hands-on review of all tutorials, assets, integrations or renderer setup. The six supplied YouTube videos now have publisher metadata and selected automatic-caption review, documented in [Video Learning Notes](video-notes.md). The GafferHQ Vimeo inventory uses public titles and publisher descriptions only; detailed video review and all graph reproduction remain pending. Full transcripts are not redistributed.
 
 ## Sources for the List Format
 

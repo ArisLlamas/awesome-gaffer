@@ -21,3 +21,7 @@ Use those needs to prioritize resources and future lessons. A future node exampl
 ## Next Foundation Review
 
 Aris can review the learning order and recommend resources he has used. Studio-specific Arnold instructions remain a known content gap. Future design research should use this foundation as input rather than assuming the previous prototype is approved.
+
+## Video Research Added September 29, 2026
+
+The four supplied 2024 artist tutorials are in the main resource list; the 2016 and 2023 talks stay historical. [Video Learning Notes](video-notes.md) records caption findings, chapter links and proposed tasks; [Vimeo Collection Notes](vimeo-resources.md) records company and development resources with publisher-metadata evidence limits. The learning path now includes editor focus, targeted assignments, edit provenance and Spreadsheet debugging before production templates.

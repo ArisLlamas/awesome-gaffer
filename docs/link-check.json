@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-29T23:23:02.031Z",
-  "markdownFiles": 9,
-  "resourceEntries": 50,
-  "internalLinks": 32,
-  "externalUrls": 61,
+  "checkedAt": "2026-09-29T23:52:28.192Z",
+  "markdownFiles": 11,
+  "resourceEntries": 57,
+  "internalLinks": 60,
+  "externalUrls": 105,
   "structuralFailures": [],
   "outcomes": [
     {
@@ -125,6 +125,41 @@
       "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html",
       "status": 200,
       "finalUrl": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qJWtai73TB8",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=qJWtai73TB8"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw"
+    },
+    {
+      "url": "https://vimeo.com/1131945768",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/1131945768"
+    },
+    {
+      "url": "https://vimeo.com/1036919633",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/1036919633"
+    },
+    {
+      "url": "https://vimeo.com/923093356",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/923093356"
     },
     {
       "url": "https://vimeo.com/gafferhq",
@@ -272,6 +307,16 @@
       "finalUrl": "https://github.com/GafferHQ/gaffer/blob/1.7.3.0/python/GafferSceneUI/SceneInspector.py"
     },
     {
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=6X7Q4pnUiJk"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Edod6s93Ogk"
+    },
+    {
       "url": "https://blog.gafferhq.org/introduction-to-gaffer-gafferbot-lighting-and-lookdev/",
       "status": "unresolved",
       "reason": "TypeError"
@@ -310,6 +355,181 @@
       "url": "https://github.com/GafferHQ/gaffer/issues/7144",
       "status": 200,
       "finalUrl": "https://github.com/GafferHQ/gaffer/issues/7144"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qJWtai73TB8&t=0s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=qJWtai73TB8&t=0s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qJWtai73TB8&t=858s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=qJWtai73TB8&t=858s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qJWtai73TB8&t=1913s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=qJWtai73TB8&t=1913s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=0s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=0s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=1454s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=1454s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=2777s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI&t=2777s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=117s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=117s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=792s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=792s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=1028s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=1028s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=1684s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=1684s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=2508s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=lAgBcOFMf5k&t=2508s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=50s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=50s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=338s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=338s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=504s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=504s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=564s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=564s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=1418s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw&t=1418s"
+    },
+    {
+      "url": "https://vimeo.com/201047816",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/201047816"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=242s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=242s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=294s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=294s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=867s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=867s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=944s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=944s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=266s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=266s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=386s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=386s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=493s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=493s"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=553s",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Edod6s93Ogk&t=553s"
+    },
+    {
+      "url": "https://vimeo.com/739832505",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739832505"
+    },
+    {
+      "url": "https://vimeo.com/739832240",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739832240"
+    },
+    {
+      "url": "https://vimeo.com/739832094",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739832094"
+    },
+    {
+      "url": "https://vimeo.com/739873644",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739873644"
+    },
+    {
+      "url": "https://vimeo.com/739873307",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739873307"
+    },
+    {
+      "url": "https://vimeo.com/739829903",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/739829903"
+    },
+    {
+      "url": "https://vimeo.com/442980215",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/442980215"
+    },
+    {
+      "url": "https://vimeo.com/442980018",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/442980018"
+    },
+    {
+      "url": "https://vimeo.com/424432020",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/424432020"
+    },
+    {
+      "url": "https://vimeo.com/404580598",
+      "status": 200,
+      "finalUrl": "https://vimeo.com/404580598"
     }
   ]
 }
