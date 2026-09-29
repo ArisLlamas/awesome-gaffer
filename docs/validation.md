@@ -5,7 +5,7 @@
 - README title and repository name use Awesome Gaffer / awesome-gaffer.
 - The main list has 50 resource entries, categorized into introductions, installation, artist learning, lighting, videos, assets, USD, technical learning, tools, references and community.
 - Each main resource entry has a consistent description. No duplicate main-list resource URLs were found.
-- The 9 Markdown documents have 32 working internal file or heading links.
+- The 9 Markdown documents have 33 working internal file or heading links.
 - The repository includes contribution guidelines, the CC0 license, curation criteria, a practical learning path, Arnold setup, Maya tool translations and a separate resource-review file.
 - Website design and deployment are deferred. No prior prototype files were modified.
 

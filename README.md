@@ -153,4 +153,3 @@ See [Contribution Guidelines](CONTRIBUTING.md) before suggesting a resource. Exp
 - [Foundation Notes](docs/foundation.md) records the repository's scope and the requested structure.
 - The Awesome badge identifies the list format. It does not mean this repository has been accepted into the upstream Awesome index.
 - Last reviewed: September 29, 2026. Source inspection does not establish hands-on compatibility with a studio installation.
-
