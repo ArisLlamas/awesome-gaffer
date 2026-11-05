@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" role="img" aria-labelledby="title desc">
+  <title id="title">Maya to Gaffer</title>
+  <desc id="desc">Publish geometry or animation from Maya. Read a supported cache into Gaffer. Assemble, assign materials, light and render.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#47637f"/></marker></defs>
+  <rect width="900" height="200" rx="18" fill="#edf3f9"/>
+  <text x="24" y="34" fill="#142638" font-family="sans-serif" font-weight="700" font-size="21">Maya to Gaffer</text>
+  <g fill="none" stroke="#47637f" stroke-width="2" marker-end="url(#arrow)"><path d="M209 113H235"/><path d="M424 113H450"/><path d="M639 113H665"/></g>
+  <g font-family="sans-serif" font-size="16" text-anchor="middle" fill="#142638">
+    <rect x="24" y="70" width="185" height="86" rx="9" fill="#fff" stroke="#7894ad"/><text x="116.5" y="106.5">Maya</text><text x="116.5" y="129.5">Model or animate</text>
+    <rect x="239" y="70" width="185" height="86" rx="9" fill="#fff" stroke="#7894ad"/><text x="331.5" y="106.5">Publish a cache</text><text x="331.5" y="129.5">Geometry or animation</text>
+    <rect x="454" y="70" width="185" height="86" rx="9" fill="#fff" stroke="#7894ad"/><text x="546.5" y="106.5">Gaffer</text><text x="546.5" y="129.5">Read and assemble</text>
+    <rect x="669" y="70" width="207" height="86" rx="9" fill="#fff" stroke="#7894ad"/><text x="772.5" y="106.5">Gaffer and renderer</text><text x="772.5" y="129.5">Shade, light, and render</text>
+  </g>
+</svg>

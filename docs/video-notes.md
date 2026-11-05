@@ -1,6 +1,6 @@
 # Video Learning Notes
 
-Reviewed September 29, 2026. These are paraphrased findings from accessible English automatic captions and publisher metadata, not a visual watch-through or hands-on compatibility test. Automatic captions can mishear node names; exact clicks, shortcuts and graphs need visual review and reproduction in Gaffer 1.7.3.0 before becoming website instructions. Full transcripts and video files are not redistributed.
+Reviewed September 29, 2026. These are paraphrased findings from accessible English automatic captions and publisher metadata, not a visual watch-through or hands-on compatibility test. Automatic captions can mishear node names; exact clicks, shortcuts and graphs need visual review and reproduction in Gaffer 1.7.6.0 before becoming website instructions. Full transcripts and video files are not redistributed.
 
 [Back to resources](../README.md#videos-and-demonstrations) · [Practice route](learning-path.md) · [Metadata catalogue](video-catalog.json) · [Vimeo collection](vimeo-resources.md)
 
@@ -71,7 +71,7 @@ Useful findings:
 - Around 9–15: map editor focus, Hierarchy View, Scene Inspector and Light Editor to familiar artist tasks.
 - Around 34–35: a copied path can fail because it belongs to a different graph output. Inspect the hierarchy where the assignment consumes its scene.
 - Around 50–51: shader inheritance explains why an explicit child assignment can defeat a parent override.
-- Around 52–59: EditScope keeps downstream light changes separate from the source light; choose the scope in the editing interface and inspect where the edit lands.
+- Around 52–59: **EditScope** keeps downstream light changes separate from the source light. Choose the scope in the editing interface. Inspect where the edit lands.
 
 Practice: make one downstream exposure override, then prove the original light remains unchanged and locate the override.
 
@@ -98,7 +98,7 @@ Useful findings:
 
 Practice: inspect a greyscale mask, predict which areas change, then compare two renders with only roughness changed. Follow with a separate key-light exercise.
 
-Do not copy sampling values as universal settings. SDK version, CPU/GPU mode and scene cost matter. Public practice should use licensed accessible geometry, not require the creator's paid dragon scene or startup helper.
+Do not copy sampling values as universal settings. SDK version, CPU/GPU mode and scene cost matter. Use accessible geometry with a license for public practice. Treat the paid scene and startup helper as optional.
 
 ## Historical: DigiPro 2016
 
@@ -108,7 +108,7 @@ Useful caption ranges: [4:02](https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=242s
 
 Retain the architectural lesson: reusable graphs can package look development, lighting and delivery tasks. The talk explicitly distinguishes open-source Gaffer from Image Engine's proprietary pipeline components. Jabuka, Caribou and production-specific integrations are case studies, not public setup requirements.
 
-Historical warning: statements about missing manipulators, animation UI, light linking or USD describe 2016. They must not be used to describe 1.7.3.0. Start beginners with the 2024 tutorials instead.
+Historical warning: statements about missing manipulators, animation controls, light linking, or Universal Scene Description (USD) describe 2016. They must not be used to describe 1.7.6.0. Start beginners with the 2024 tutorials instead.
 
 ## Historical: ASWF 2023
 
@@ -118,7 +118,7 @@ Selected publisher chapters: [Usage 4:26](https://www.youtube.com/watch?v=Edod6s
 
 Useful findings: the opening connects contexts and spreadsheets to sharing one lighting template across shots. Around 3–4 minutes, the speaker separates public downloadable Gaffer from studio integrations. Around 6–8, development, builds and release work are described as public. Around 8–9, colour management, light manipulation and USD work explain the direction of artist-facing development at that time.
 
-Use this for motivation and history. The 2023 survey, release policy, previews and roadmap are dated observations, not current adoption statistics or feature promises. Verify USD operations against the [baseline references](../README.md#usd-in-gaffer).
+Use this for motivation and history. The 2023 survey, release policy, previews and roadmap are dated observations, not current adoption statistics or feature promises. Verify USD operations against the [version references](../README.md#usd-in-gaffer).
 
 ## How These Findings Improve the Learning Project
 
@@ -134,14 +134,14 @@ These are design proposals informed by the sources above. They are not changes t
 | Why did the wrong shot settings win? | Trixter spreadsheet section | Predict the first matching row and test a deliberate wildcard mistake. |
 | How do I evaluate a procedural material? | Schneider's dragon tutorial | Inspect the mask, make a prediction, change one control and compare images. |
 
-Suggested lesson pattern: name the visual task, link a short relevant segment, provide an accessible practice scene, ask for a prediction, then verify an observable result. Completion should mean the task worked, not merely that a video played. This extends the task-first concerns in [documentation issue #7144](https://github.com/GafferHQ/gaffer/issues/7144).
+Name the visual task. Link a short segment. Provide a practice scene. Ask for a prediction. Check the result. Mark the lesson complete when the task works. This extends the task-first concerns in [documentation issue #7144](https://github.com/GafferHQ/gaffer/issues/7144).
 
-Technical cross-check: the [1.7.3.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. It also warns that scene:path is absent for globals and unsupported for string substitutions in shader networks; do not generalize the video's per-location examples to every plug.
+Technical cross-check: the [1.7.6.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. Globals do not have a scene:path variable. Shader networks do not support it for string substitution. Do not apply the per-location examples to every plug.
 
 ## Review Still Needed Before Website Lessons
 
 - Visually review the selected segments and reproduce each exercise in the chosen Gaffer/Arnold versions.
 - Translate studio nodes, shot/layer selectors and private asset paths into small public graphs.
-- Verify exact node names, shortcuts, shader inheritance and colour-management settings against baseline documentation.
+- Verify exact node names, shortcuts, shader inheritance and colour-management settings against the documentation for Gaffer 1.7.6.0.
 - Check asset and helper licenses before redistribution; link original videos rather than copying them.
 - Review Vimeo company talks visually before extracting detailed workflow claims; current notes use publisher descriptions only.

@@ -16,11 +16,11 @@ Awesome is a resource-list convention, not a proven method for learning software
 
 [GafferHQ issue #7144](https://github.com/GafferHQ/gaffer/issues/7144) argues for practical examples showing when to use nodes before explaining parameters. It also highlights artist confusion around object inspection, globals, expressions and tables.
 
-Use those needs to prioritize resources and future lessons. A future node example should specify the task, versions, complete graph, expected result and diagnosis steps. Do not describe a diagram or generated .gfr as tested until it has been opened and checked in Gaffer.
+Use those needs to prioritize resources and future lessons. A future node example must specify the task, versions, complete graph, expected result and diagnosis steps. Do not describe a diagram or generated .gfr as tested until it has been opened and checked in Gaffer.
 
 ## Next Foundation Review
 
-Aris can review the learning order and recommend resources he has used. Studio-specific Arnold instructions remain a known content gap. Future design research should use this foundation as input rather than assuming the previous prototype is approved.
+Aris can review the learning order and recommend resources he has used. Studio-specific Arnold instructions remain a known content gap. Use this foundation as input for future design research. Ask for review of any design before you adopt it.
 
 ## Video Research Added September 29, 2026
 
