@@ -36,11 +36,11 @@ These are useful candidates for explaining one artist problem at a time. Review 
 | Recording | Uploaded / duration | Publisher-described subject and version caveat |
 | --- | --- | --- |
 | [Contexts and Spreadsheets](https://vimeo.com/739873307) | August 16, 2022 / 9:00 | Contexts and Spreadsheet-driven graphs; description links the 1.0.2.0 guide. |
-| [Intro to Gaffer - 2022](https://vimeo.com/739829903) | August 15, 2022 / 10:34 | Application history, capabilities and production uses; introductory overview rather than setup for the baseline. |
+| [Intro to Gaffer - 2022](https://vimeo.com/739829903) | August 15, 2022 / 10:34 | Application history, capabilities and production uses; introductory overview rather than setup for Gaffer 1.7.6.0. |
 | [Scene View Inspector: An introduction](https://vimeo.com/442980215) | July 30, 2020 / 2:26 | Viewing and potentially editing selected-location attributes; introduced with 0.58.0. |
 | [Scene View Inspector: Edit Scopes](https://vimeo.com/442980018) | July 30, 2020 / 8:20 | Sequence and shot changes through the Inspector and EditScopes; 0.58.0-era UI. |
-| [Spreadsheet node in Gaffer](https://vimeo.com/424432020) | May 30, 2020 / 1:04 | Short animation of the Spreadsheet; publisher identifies 0.55.2.0. |
-| [A quick introduction to Edit Scopes](https://vimeo.com/404580598) | See catalogue metadata | EditScope introduction; historical controls require comparison with the baseline. |
+| [Spreadsheet node in Gaffer](https://vimeo.com/424432020) | 2020-05-30 / 1:04 | Short animation of the Spreadsheet; publisher identifies 0.55.2.0. |
+| [A quick introduction to Edit Scopes](https://vimeo.com/404580598) | See catalogue metadata | EditScope introduction; historical controls require comparison with Gaffer 1.7.6.0. |
 
 Other indexed titles include editor linking/following, crop-window adjustment, area-light improvements, SetVisualiser, SIGGRAPH 2018, the GafferBot walkthrough and 2015 framework presentations. They remain catalogue entries rather than detailed learning recommendations until their content is reviewed.
 
@@ -48,4 +48,4 @@ Other indexed titles include editor linking/following, crop-window adjustment, a
 
 The [DigiPro 2016 original](https://vimeo.com/201047816) also appears in this collection. The supplied [YouTube repost](https://www.youtube.com/watch?v=6X7Q4pnUiJk) identifies this original in its description. Keep the talk's 2016 date distinct from the repost's 2020 upload date.
 
-The supplied [ASWF 2023 talk](https://www.youtube.com/watch?v=Edod6s93Ogk) complements these development updates. Its captions were reviewed separately in [Video Learning Notes](video-notes.md#historical-aswf-2023). Neither historical talk should be treated as current installation or roadmap guidance.
+The supplied [ASWF 2023 talk](https://www.youtube.com/watch?v=Edod6s93Ogk) complements these development updates. Its captions were reviewed separately in [Video Learning Notes](video-notes.md#historical-aswf-2023). Use these talks for history. For installation or current plans, use current sources.

@@ -18,10 +18,10 @@ The current foundation has source review and link checks. It does not claim hand
 
 ## Sources for the List Format
 
-- [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md) - Curation, useful descriptions, scope, licensing and contribution guidance.
-- [Creating a List](https://github.com/sindresorhus/awesome/blob/main/create-list.md) - List creation and maturation guidance.
-- [Awesome List Requirements](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) - Naming, contents, consistent entries and related conventions.
-- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - Structural reference for introductions, artist/technical learning, samples and references.
+- [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md) - [Both] [Read] Curation, useful descriptions, scope, licensing and contribution guidance.
+- [Creating a List](https://github.com/sindresorhus/awesome/blob/main/create-list.md) - [Both] [Read] List creation and maturation guidance.
+- [Awesome List Requirements](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) - [Both] [Read] Naming, contents, consistent entries and related conventions.
+- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - [Both] [Read] Structural reference for introductions, artist/technical learning, samples and references.
 
 This independent, AI-assisted foundation has not been submitted to the upstream Awesome index. Its submission rules include human curation and maturity requirements; an Awesome-style repository does not establish upstream eligibility or acceptance.
 

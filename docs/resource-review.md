@@ -4,19 +4,19 @@ Keep uncertain or historical resources here until their current usefulness has b
 
 ## Historical Instruction
 
-- [DigiPro 2016 - Gaffer](https://www.youtube.com/watch?v=6X7Q4pnUiJk) - Pipeliner's 2020 repost of a 2016 talk; useful for architecture and studio workflow history, with obsolete feature-status claims.
-- [Gaffer: Open Source Lookdev, Lighting, and Automation](https://www.youtube.com/watch?v=Edod6s93Ogk) - Murray Stevenson's 2023 ASWF presentation; useful production and development context, with dated survey and roadmap information.
+- [DigiPro 2016 - Gaffer](https://www.youtube.com/watch?v=6X7Q4pnUiJk) - [Both] [Read] Pipeliner's 2020 repost of a 2016 talk; useful for architecture and studio workflow history, with obsolete feature-status claims.
+- [Gaffer: Open Source Lookdev, Lighting, and Automation](https://www.youtube.com/watch?v=Edod6s93Ogk) - [Both] [Read] Murray Stevenson's 2023 ASWF presentation; useful production and development context, with dated survey and roadmap information.
 - [GafferHQ Historical Vimeo Resources](vimeo-resources.md) - Company talks and focused demonstrations from earlier releases; publisher descriptions reviewed, video content review pending.
 
 [Video Learning Notes](video-notes.md) extracts caption-grounded findings from both supplied historical YouTube recordings and identifies what must not be carried into current lessons.
 
-- [GafferBot Lighting and LookDev Walkthrough](https://blog.gafferhq.org/introduction-to-gaffer-gafferbot-lighting-and-lookdev/) - Official February 2017 walkthrough; useful historical context, but current controls and renderer behavior require comparison.
-- [Gaffer Wiki Learning Resources](https://gaffer.wiki/wiki/Learning_resources) - Community index including Brian Hanke's introduction and embedded videos; indexed content was available, but direct access timed out during earlier research.
+- [GafferBot Lighting and LookDev Walkthrough](https://blog.gafferhq.org/introduction-to-gaffer-gafferbot-lighting-and-lookdev/) - [Artist] [Read] Official February 2017 walkthrough; useful historical context, but current controls and renderer behavior require comparison.
+- [Gaffer Wiki Learning Resources](https://gaffer.wiki/wiki/Learning_resources) - [Both] [Unchecked] Community index including Brian Hanke's introduction and embedded videos; indexed content was available, but direct access timed out during earlier research.
 
 ## Integrations Needing Compatibility Review
 
-- [GafferDeadline](https://github.com/hypothetical-inc/GafferDeadline) - Deadline dispatcher linked by GafferHQ; repository was not archived when checked, but Gaffer 1.7.6.0 compatibility and the current Deadline environment have not been tested.
-- [TK-Gaffer](https://github.com/diegogarciahuerta/tk-gaffer) - Production-tracking toolkit integration linked by GafferHQ; repository was not archived when checked, but its current application and dependency compatibility have not been tested.
+- [GafferDeadline](https://github.com/hypothetical-inc/GafferDeadline) - [TD] [Unchecked] Deadline dispatcher that GafferHQ lists; repository was not archived when checked, but Gaffer 1.7.6.0 compatibility and the current Deadline environment have not been tested.
+- [TK-Gaffer](https://github.com/diegogarciahuerta/tk-gaffer) - [TD] [Unchecked] Integration for a production tracker that GafferHQ lists; repository was not archived when checked, but its current application and dependency compatibility have not been tested.
 
 ## Review Before Promotion
 

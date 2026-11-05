@@ -32,7 +32,7 @@ Use the [lighting references](../README.md#lighting-and-look-development). Choos
 
 For a worked artistic example, use the lighting chapter of [Schneider's shading and lighting tutorial](video-notes.md#arvid-schneider-shading-and-lighting). Start with the light task; save procedural shading for later. Check the active EditScope and identify where an override is stored.
 
-Finish line: two saved lighting versions with the same camera and display settings, plus an explanation of the changes. +1 exposure stop doubles emitted energy; it does not guarantee twice the displayed pixel value.
+Finish line: save two lighting versions with the same camera and display settings. Explain what changed. One more exposure stop doubles emitted energy. The displayed pixel value does not always double.
 
 ## 5. Target an Edit
 
@@ -42,9 +42,9 @@ Use the assignments chapter of [Trixter Basics](video-notes.md#trixter-the-basic
 
 Finish line: only the intended object changes. Deliberately break the filter and diagnose the mismatch.
 
-## 6. Understand a USD Handoff
+## 6. Understand a Scene Handoff
 
-Read the [artist USD foundations](../README.md#artist-foundations), then the Gaffer workflow references. Identify a prim, a layer and a stage before exporting changes.
+Read the [artist foundations for Universal Scene Description (USD)](../README.md#artist-foundations), then the Gaffer workflow references. Identify a prim, a layer and a stage before exporting changes.
 
 Finish line: explain what SceneReader imports, when SceneWriter writes a full scene, and when USDLayerWriter writes differences. Reload a small composed example before trusting a larger handoff.
 

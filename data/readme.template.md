@@ -123,6 +123,8 @@ Use the reference for your version when you need an exact control.
 
 <!-- resources: References -->
 
+- [Gaffer Glossary](docs/glossary.md) explains terms and names the relevant controls.
+
 ## Community
 
 Use these channels to ask questions or find shared examples.
@@ -148,4 +150,4 @@ See [Contribution Guidelines](CONTRIBUTING.md) before suggesting a resource. Exp
 - [Curation Notes](docs/curation.md) records how resources are selected and what has been checked.
 - [Foundation Notes](docs/foundation.md) records the repository's scope and the requested structure.
 - The Awesome badge identifies the list format. The upstream Awesome index does not include this list.
-- Last reviewed: September 29, 2026. Source inspection does not establish hands-on compatibility with a studio installation.
+- Last reviewed: November 5, 2026. Source inspection does not establish hands-on compatibility with a studio installation.
