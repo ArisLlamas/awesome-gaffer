@@ -48,7 +48,7 @@ Install Gaffer first. Connect Arnold before you follow an Arnold tutorial.
 
 <!-- resources: Installation and Arnold -->
 
-[Arnold Setup Checklist](docs/arnold-setup.md) separates installing Arnold, loading its nodes, choosing it as the renderer, and viewing a test image. Studio-specific launcher steps are still awaiting the studio's instructions.
+[Arnold Setup Checklist](docs/arnold-setup.md) separates installing Arnold, loading its nodes, choosing it as the renderer, and viewing a test image.
 
 ## Artist Learning
 

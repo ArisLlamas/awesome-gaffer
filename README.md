@@ -53,7 +53,7 @@ Install Gaffer first. Connect Arnold before you follow an Arnold tutorial.
 - [Configuring Gaffer for Third-Party Tools](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) - [Both] [Read] Set ARNOLD_ROOT so Gaffer can load Arnold.
 - [Arnold Licensing](https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html) - [Both] [Read] Check the Autodesk license requirements before you render with Arnold.
 
-[Arnold Setup Checklist](docs/arnold-setup.md) separates installing Arnold, loading its nodes, choosing it as the renderer, and viewing a test image. Studio-specific launcher steps are still awaiting the studio's instructions.
+[Arnold Setup Checklist](docs/arnold-setup.md) separates installing Arnold, loading its nodes, choosing it as the renderer, and viewing a test image.
 
 ## Artist Learning
 
