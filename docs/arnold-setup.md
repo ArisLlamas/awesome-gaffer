@@ -1,10 +1,10 @@
 # Arnold Setup Checklist
 
-Baseline: Gaffer 1.7.3.0. Follow the [version-pinned official setup guide](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) and your studio's approved renderer requirements.
+Baseline: Gaffer 1.7.6.0. Follow the [version-pinned official setup guide](https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) and your studio's approved renderer requirements.
 
 ## Install Gaffer
 
-- [ ] Download the Windows or Linux archive from the [1.7.3.0 release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.3.0).
+- [ ] Download the Windows or Linux archive from the [1.7.6.0 release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.6.0).
 - [ ] Extract the complete package to a location you can use.
 - [ ] On Windows, install the required Microsoft Visual C++ Redistributable.
 - [ ] Launch `bin/gaffer.cmd` on Windows or `bin/gaffer` on Linux.
@@ -26,7 +26,7 @@ Open a new Command Prompt, then verify and launch from it:
 
 ```bat
 echo %ARNOLD_ROOT%
-C:\software\gaffer-1.7.3.0-windows\bin\gaffer.cmd
+C:\software\gaffer-1.7.6.0-windows\bin\gaffer.cmd
 ```
 
 Linux bash example for a current-shell test; replace both paths:
@@ -34,7 +34,7 @@ Linux bash example for a current-shell test; replace both paths:
 ```bash
 export ARNOLD_ROOT=/opt/solidangle/arnold-7.4.1.0
 echo "$ARNOLD_ROOT"
-/opt/gaffer-1.7.3.0-linux/bin/gaffer
+/opt/gaffer-1.7.6.0-linux/bin/gaffer
 ```
 
 For persistence, use the startup file or launcher configuration that your environment actually reads. Setting a variable in one terminal does not guarantee a desktop launcher inherits it.

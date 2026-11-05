@@ -1,6 +1,6 @@
 # Video Learning Notes
 
-Reviewed September 29, 2026. These are paraphrased findings from accessible English automatic captions and publisher metadata, not a visual watch-through or hands-on compatibility test. Automatic captions can mishear node names; exact clicks, shortcuts and graphs need visual review and reproduction in Gaffer 1.7.3.0 before becoming website instructions. Full transcripts and video files are not redistributed.
+Reviewed September 29, 2026. These are paraphrased findings from accessible English automatic captions and publisher metadata, not a visual watch-through or hands-on compatibility test. Automatic captions can mishear node names; exact clicks, shortcuts and graphs need visual review and reproduction in Gaffer 1.7.6.0 before becoming website instructions. Full transcripts and video files are not redistributed.
 
 [Back to resources](../README.md#videos-and-demonstrations) · [Practice route](learning-path.md) · [Metadata catalogue](video-catalog.json) · [Vimeo collection](vimeo-resources.md)
 
@@ -108,7 +108,7 @@ Useful caption ranges: [4:02](https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=242s
 
 Retain the architectural lesson: reusable graphs can package look development, lighting and delivery tasks. The talk explicitly distinguishes open-source Gaffer from Image Engine's proprietary pipeline components. Jabuka, Caribou and production-specific integrations are case studies, not public setup requirements.
 
-Historical warning: statements about missing manipulators, animation UI, light linking or USD describe 2016. They must not be used to describe 1.7.3.0. Start beginners with the 2024 tutorials instead.
+Historical warning: statements about missing manipulators, animation UI, light linking or USD describe 2016. They must not be used to describe 1.7.6.0. Start beginners with the 2024 tutorials instead.
 
 ## Historical: ASWF 2023
 
@@ -136,7 +136,7 @@ These are design proposals informed by the sources above. They are not changes t
 
 Suggested lesson pattern: name the visual task, link a short relevant segment, provide an accessible practice scene, ask for a prediction, then verify an observable result. Completion should mean the task worked, not merely that a video played. This extends the task-first concerns in [documentation issue #7144](https://github.com/GafferHQ/gaffer/issues/7144).
 
-Technical cross-check: the [1.7.3.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. It also warns that scene:path is absent for globals and unsupported for string substitutions in shader networks; do not generalize the video's per-location examples to every plug.
+Technical cross-check: the [1.7.6.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. It also warns that scene:path is absent for globals and unsupported for string substitutions in shader networks; do not generalize the video's per-location examples to every plug.
 
 ## Review Still Needed Before Website Lessons
 

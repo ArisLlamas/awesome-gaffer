@@ -12,7 +12,7 @@ Finish line: Arnold nodes appear, Arnold is selected for the scene, and a test i
 
 ## 2. Learn the Two Maps
 
-Open [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/AnatomyOfAScene/index.html), then the [Maya translation](maya-to-gaffer.md).
+Open [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/AnatomyOfAScene/index.html), then the [Maya translation](maya-to-gaffer.md).
 
 Create a Sphere, inspect its hierarchy, then connect it to Transform. View each output. The Graph Editor shows operations; the Hierarchy View shows the scene they produce.
 
@@ -22,7 +22,7 @@ Finish line: you can find an object path and explain why inspecting an upstream 
 
 ## 3. Assemble a Tiny Scene
 
-Follow the [GafferBot tutorial](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html). It uses Cycles and bundled resources. Either complete that tutorial as written first, or use Arnold equivalents deliberately; mixing Cycles shaders with an Arnold render is not a renderer conversion.
+Follow the [GafferBot tutorial](https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html). It uses Cycles and bundled resources. Either complete that tutorial as written first, or use Arnold equivalents deliberately; mixing Cycles shaders with an Arnold render is not a renderer conversion.
 
 Finish line: one asset, one shader, one camera and one light reach the render. Outputs defines the image and Catalogue displays it. Save the .gfr and note its external dependencies.
 
@@ -50,7 +50,7 @@ Finish line: explain what SceneReader imports, when SceneWriter writes a full sc
 
 ## 7. Share a Graph Across Shots
 
-Complete the [Spreadsheet tutorial](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html). Begin with one light control and two rows. Inspect the selector and default row before introducing a shot context variable.
+Complete the [Spreadsheet tutorial](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html). Begin with one light control and two rows. Inspect the selector and default row before introducing a shot context variable.
 
 Use the context and spreadsheet chapters of [Trixter Intermediate](video-notes.md#trixter-intermediate). Switch two simple light variants before recreating a production template. View downstream of the local context change. Deliberately create a wildcard row that masks a later row, then repair the order. Check computed globals for render settings.
 
@@ -68,4 +68,4 @@ These finish lines are practice checks, not a certification. The future website'
 - Reusable artist tools: use the boxes section of [Trixter Intermediate](video-notes.md#trixter-intermediate) to expose a few named controls and test bypass behavior. Introduce expressions only when a useful filename or parameter relationship needs them.
 - Production motivation: browse the [Vimeo company talks](vimeo-resources.md#company-production-talks) after the first render works. They are dated case studies; detailed content review is still pending.
 
-The video notes distinguish caption findings, publisher chapters and our proposed exercises. None of these additions establishes hands-on compatibility with Gaffer 1.7.3.0.
+The video notes distinguish caption findings, publisher chapters and our proposed exercises. None of these additions establishes hands-on compatibility with Gaffer 1.7.6.0.

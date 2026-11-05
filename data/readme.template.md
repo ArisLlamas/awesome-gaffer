@@ -40,7 +40,7 @@ Follow this route for your first lighting scene:
 
 Use the [Learning Path](docs/learning-path.md) to check your result at each stage. It gives you a resource for the next task.
 
-**Version baseline:** Gaffer 1.7.3.0. The documentation links use this version where possible. Older videos and community graphs can use different controls. Before you install a renderer or integration, read the requirements for your version.
+**Version baseline:** Gaffer 1.7.6.0. The documentation links use this version where possible. Older videos and community graphs can use different controls. Before you install a renderer or integration, read the requirements for your version.
 
 ## Installation and Arnold
 
@@ -72,7 +72,7 @@ Pick a video for the task you want to practice. Check its version and studio req
 
 <!-- resources: Artist Training -->
 
-[Video Learning Notes](docs/video-notes.md) contains chapter links, caption-based findings and suggested exercises. These recordings predate Gaffer 1.7.3.0. The project does not include a runtime test of their graphs. Some creators require a paid membership for scene files.
+[Video Learning Notes](docs/video-notes.md) contains chapter links, caption-based findings and suggested exercises. These recordings predate Gaffer 1.7.6.0. The project does not include a runtime test of their graphs. Some creators require a paid membership for scene files.
 
 ### Production and Development
 
@@ -101,7 +101,7 @@ Learn the USD terms first. Then read or write a small scene.
 
 <!-- resources: Gaffer Workflow -->
 
-Current OpenUSD references can describe features newer than the USD bundled with Gaffer 1.7.3.0. Check the node reference and release notes for support.
+Current OpenUSD references can describe features newer than the USD bundled with Gaffer 1.7.6.0. Check the node reference and release notes for support.
 
 ## Technical Learning
 

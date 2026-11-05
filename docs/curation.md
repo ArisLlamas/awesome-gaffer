@@ -6,7 +6,7 @@ Reviewed September 29, 2026. Main scope: Gaffer learning and practical reference
 
 Include a resource when it answers a specific task, has an inspectable source and adds value beyond another entry. Prefer original authors and official documentation. Describe why to open it rather than repeating a product slogan. Limit the main list to useful starting points; this is not a complete inventory of everything mentioning Gaffer.
 
-Pin Gaffer documentation to 1.7.3.0 where practical. Label historical instruction. Do not infer current compatibility from an unarchived GitHub repository. Current OpenUSD material explains concepts but does not establish support in Gaffer's bundled version.
+Pin Gaffer documentation to 1.7.6.0 where practical. Label historical instruction. Do not infer current compatibility from an unarchived GitHub repository. Current OpenUSD material explains concepts but does not establish support in Gaffer's bundled version.
 
 ## Evidence Levels
 

@@ -27,7 +27,7 @@ The rightmost column is our proposed research use, not a claim about a specific 
 | [March 2024 User Group](https://vimeo.com/923093356), 1:10:54 | March 12 / March 13, 2024 | Production work, Gaffer 1.3 recap, a 1.4 preview, community updates and Q&A. |
 | [Gaffer 1.0 Update](https://vimeo.com/739873644), 8:29 | Uploaded August 16, 2022 | Gaffer 1.0 changes and a recap of 0.59–0.61 features. |
 
-Use dated updates to understand why tools evolved. A preview is not confirmation of availability in 1.7.3.0; check the node reference and release notes. October 2025 was the newest entry returned in this inventory, not a claim that it is the newest Gaffer update anywhere.
+Use dated updates to understand why tools evolved. A preview is not confirmation of availability in 1.7.6.0; check the node reference and release notes. October 2025 was the newest entry returned in this inventory, not a claim that it is the newest Gaffer update anywhere.
 
 ## Focused Historical Demonstrations
 
