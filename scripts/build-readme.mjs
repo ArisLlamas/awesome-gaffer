@@ -24,7 +24,7 @@ const output = template.replace(/^<!-- resources: (.+) -->$/gm, (_, section) => 
   if (used.has(section) || !sections.has(section)) throw new Error('Unexpected resource section: ' + section);
   used.add(section);
   return sections.get(section).map(item =>
-    '- [' + item.name + '](' + item.url + ') - ' + item.description
+    '- [' + item.name + '](' + item.url + ') - [' + item.level + '] [' + item.status + '] ' + item.description
   ).join('\n');
 });
 if (used.size !== sections.size) throw new Error('The template omits a resource section.');

@@ -24,8 +24,8 @@ A curated starting point for artists learning Gaffer, especially lighting artist
 
 You can keep modelling and animating in Maya, publish geometry or animation, then use Gaffer to assemble a scene, assign materials, light it and render. A node graph records the operations; the scene hierarchy shows the objects those operations produce.
 
-- [Gaffer Overview](https://www.gafferhq.org/) - Explains the application and shows examples of its use in look development, lighting and production workflows.
-- [Gaffer User Guide Introduction](https://www.gafferhq.org/documentation/1.7.3.0/) - Defines the scope of the official guide; useful for understanding which work belongs in Gaffer.
+- [Gaffer Overview](https://www.gafferhq.org/) - [Both] [Read] Explains the application and shows examples of its use in look development, lighting and production workflows.
+- [Gaffer User Guide Introduction](https://www.gafferhq.org/documentation/1.7.3.0/) - [Both] [Read] Defines the scope of the official guide; useful for understanding which work belongs in Gaffer.
 
 ## Start Here
 
@@ -43,11 +43,11 @@ For a Maya lighting artist, take this route before browsing the entire list:
 
 ## Installation and Arnold
 
-- [Gaffer 1.7.3.0 Release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.3.0) - Version-specific download packages and release notes for this list's baseline.
-- [Installing Gaffer](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/InstallingGaffer/index.html) - Official Windows and Linux installation instructions, including the Windows runtime prerequisite.
-- [Launching Gaffer for the First Time](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/LaunchingGafferFirstTime/index.html) - Shows how to launch the extracted application and diagnose a missing Windows runtime.
-- [Configuring Gaffer for Third-Party Tools](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) - Explains how ARNOLD_ROOT connects the Arnold installation to Gaffer.
-- [Arnold Licensing](https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html) - Autodesk's licensing guidance for separating renderer availability from licensed rendering.
+- [Gaffer 1.7.3.0 Release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.3.0) - [Both] [Read] Version-specific download packages and release notes for this list's baseline.
+- [Installing Gaffer](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/InstallingGaffer/index.html) - [Both] [Read] Official Windows and Linux installation instructions, including the Windows runtime prerequisite.
+- [Launching Gaffer for the First Time](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/LaunchingGafferFirstTime/index.html) - [Both] [Read] Shows how to launch the extracted application and diagnose a missing Windows runtime.
+- [Configuring Gaffer for Third-Party Tools](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) - [Both] [Read] Explains how ARNOLD_ROOT connects the Arnold installation to Gaffer.
+- [Arnold Licensing](https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html) - [Both] [Read] Autodesk's licensing guidance for separating renderer availability from licensed rendering.
 
 [Arnold Setup Checklist](docs/arnold-setup.md) separates installing Arnold, loading its nodes, choosing it as the renderer, and viewing a test image. Studio-specific launcher steps are still awaiting the studio's instructions.
 
@@ -55,57 +55,57 @@ For a Maya lighting artist, take this route before browsing the entire list:
 
 Start with tasks you can see in the viewport or render. Save the API references for later.
 
-- [Assembling the GafferBot](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html) - Builds a small scene using bundled assets, shaders, a camera and lights; uses Cycles, so Arnold nodes must be substituted deliberately.
-- [Controls and Shortcuts](https://www.gafferhq.org/documentation/1.7.3.0/Interface/ControlsAndShortcuts/index.html) - Reference for navigation, selection, viewing and editor focus while following a tutorial.
-- [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/AnatomyOfAScene/index.html) - Explains what a scene contains, helping separate node operations from resulting objects and global settings.
-- [Camera Workflow](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/Camera/index.html) - Guidance for working with a render camera rather than relying on a free viewport view.
-- [ShaderAssignment](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/ShaderAssignment.html) - Use when you need to apply a material to selected scene locations.
-- [PathFilter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/PathFilter.html) - Use when an edit should affect specific paths rather than every object.
-- [Group](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Group.html) - Use when combining separate scene branches, such as an asset, camera and lights.
+- [Assembling the GafferBot](https://www.gafferhq.org/documentation/1.7.3.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html) - [Artist] [Read] Builds a small scene using bundled assets, shaders, a camera and lights; uses Cycles, so Arnold nodes must be substituted deliberately.
+- [Controls and Shortcuts](https://www.gafferhq.org/documentation/1.7.3.0/Interface/ControlsAndShortcuts/index.html) - [Artist] [Read] Reference for navigation, selection, viewing and editor focus while following a tutorial.
+- [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/AnatomyOfAScene/index.html) - [Both] [Read] Explains what a scene contains, helping separate node operations from resulting objects and global settings.
+- [Camera Workflow](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/Camera/index.html) - [Artist] [Read] Guidance for working with a render camera rather than relying on a free viewport view.
+- [ShaderAssignment](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/ShaderAssignment.html) - [Artist] [Read] Use when you need to apply a material to selected scene locations.
+- [PathFilter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/PathFilter.html) - [Artist] [Read] Use when an edit should affect specific paths rather than every object.
+- [Group](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Group.html) - [Artist] [Read] Use when combining separate scene branches, such as an asset, camera and lights.
 
 [Maya to Gaffer](docs/maya-to-gaffer.md) translates familiar artist questions into the relevant Gaffer tools. These are conceptual bridges, not exact replacements for Maya panels.
 
 ## Lighting and Look Development
 
-- [ArnoldLight](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldLight.html) - Loads an Arnold light type and provides its parameters and transform.
-- [ArnoldShader](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldShader.html) - Loads Arnold shader networks for material assignments and look development.
-- [StandardOptions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/StandardOptions.html) - Use for scene-level camera, resolution and default-renderer choices.
-- [ArnoldOptions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html) - Use for Arnold-specific settings after selecting Arnold as the renderer.
-- [InteractiveRender](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/InteractiveRender.html) - Runs a live render session so you can judge changes while lighting.
-- [Outputs](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Outputs.html) - Defines output images, including an interactive beauty image for the render catalogue.
-- [Catalogue](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Catalogue.html) - Displays and manages rendered images for viewing and comparison.
-- [Light Linking](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/LightLinking/index.html) - Guidance for controlling which lights illuminate which objects; learn after a basic scene works.
-- [Arnold Light Controls](https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html) - Explains exposure, normalization and light-type behavior that also matters when using Arnold through Gaffer.
+- [ArnoldLight](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldLight.html) - [Artist] [Read] Loads an Arnold light type and provides its parameters and transform.
+- [ArnoldShader](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldShader.html) - [Artist] [Read] Loads Arnold shader networks for material assignments and look development.
+- [StandardOptions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/StandardOptions.html) - [Artist] [Read] Use for scene-level camera, resolution and default-renderer choices.
+- [ArnoldOptions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html) - [Artist] [Read] Use for Arnold-specific settings after selecting Arnold as the renderer.
+- [InteractiveRender](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/InteractiveRender.html) - [Artist] [Read] Runs a live render session so you can judge changes while lighting.
+- [Outputs](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Outputs.html) - [Artist] [Read] Defines output images, including an interactive beauty image for the render catalogue.
+- [Catalogue](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/Catalogue.html) - [Artist] [Read] Displays and manages rendered images for viewing and comparison.
+- [Light Linking](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithScenes/LightLinking/index.html) - [Artist] [Read] Guidance for controlling which lights illuminate which objects; learn after a basic scene works.
+- [Arnold Light Controls](https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html) - [Artist] [Unchecked] Explains exposure, normalization and light-type behavior that also matters when using Arnold through Gaffer.
 
 ## Videos and Demonstrations
 
 ### Artist Training
 
-- [Gaffer Training - The Basics](https://www.youtube.com/watch?v=qJWtai73TB8) - Trixter Film's 2024 onboarding session covering scene assembly, assignments, filters and viewer controls; includes studio-specific tools.
-- [Gaffer Training - Intermediate](https://www.youtube.com/watch?v=aKUMRKPbdZI) - Trixter Film's 2024 follow-up covering contexts, spreadsheets, boxes and expressions; start after lighting one scene.
-- [Introduction to Gaffer and Arnold](https://www.youtube.com/watch?v=lAgBcOFMf5k) - Arvid Schneider's 2024 introduction from an Image Engine lighting supervisor, covering setup, inspection, Arnold rendering and light edits.
-- [Shading and Lighting with Gaffer and Arnold](https://www.youtube.com/watch?v=RiPmGDhxjGw) - Arvid Schneider's 2024 dragon look-development exercise using procedural masks and light placement; its QuickConnect helper is an extension.
+- [Gaffer Training - The Basics](https://www.youtube.com/watch?v=qJWtai73TB8) - [Artist] [Read] Trixter Film's 2024 onboarding session covering scene assembly, assignments, filters and viewer controls; includes studio-specific tools.
+- [Gaffer Training - Intermediate](https://www.youtube.com/watch?v=aKUMRKPbdZI) - [TD] [Read] Trixter Film's 2024 follow-up covering contexts, spreadsheets, boxes and expressions; start after lighting one scene.
+- [Introduction to Gaffer and Arnold](https://www.youtube.com/watch?v=lAgBcOFMf5k) - [Artist] [Read] Arvid Schneider's 2024 introduction from an Image Engine lighting supervisor, covering setup, inspection, Arnold rendering and light edits.
+- [Shading and Lighting with Gaffer and Arnold](https://www.youtube.com/watch?v=RiPmGDhxjGw) - [Artist] [Read] Arvid Schneider's 2024 dragon look-development exercise using procedural masks and light placement; its QuickConnect helper is an extension.
 
 [Video Learning Notes](docs/video-notes.md) contains chapter links, caption-based findings and suggested exercises. These recordings predate the 1.7.3.0 baseline; their graphs have not been reproduced here. Creator-provided scene files may require paid membership.
 
 ### Production and Development
 
-- [Gaffer User Group - October 2025](https://vimeo.com/1131945768) - GafferHQ's publisher description lists Gaffer 1.5 and 1.6 updates, GafferRenderMan and a Warfare production session.
-- [Gaffer User Group - December 2024](https://vimeo.com/1036919633) - GafferHQ's publisher description lists Gaffer 1.4 and 1.5 updates plus GafferRenderMan and GafferML previews.
-- [Gaffer User Group - March 2024](https://vimeo.com/923093356) - GafferHQ's publisher description lists production work, Gaffer 1.3 updates and a preview of 1.4.
-- [GafferHQ on Vimeo](https://vimeo.com/gafferhq) - First-party presentations and demonstrations; check the date before copying a workflow.
-- [Multi-Shot Workflows for Episodic Animation and VFX](https://blog.gafferhq.org/demo-multi-shot-workflows-for-episodic-animation-vfx/) - GafferHQ's 2024 introduction to Rupert Thorpe's production workflow, with an embedded YouTube demonstration.
-- [Multi-Shot Workflow on YouTube](https://www.youtube.com/watch?v=jtjDbAHbPuE) - Direct video link for the same demonstration; useful after you can light a single scene.
+- [Gaffer User Group - October 2025](https://vimeo.com/1131945768) - [Both] [Read] GafferHQ's publisher description lists Gaffer 1.5 and 1.6 updates, GafferRenderMan and a Warfare production session.
+- [Gaffer User Group - December 2024](https://vimeo.com/1036919633) - [Both] [Read] GafferHQ's publisher description lists Gaffer 1.4 and 1.5 updates plus GafferRenderMan and GafferML previews.
+- [Gaffer User Group - March 2024](https://vimeo.com/923093356) - [Both] [Read] GafferHQ's publisher description lists production work, Gaffer 1.3 updates and a preview of 1.4.
+- [GafferHQ on Vimeo](https://vimeo.com/gafferhq) - [Both] [Read] First-party presentations and demonstrations; check the date before copying a workflow.
+- [Multi-Shot Workflows for Episodic Animation and VFX](https://blog.gafferhq.org/demo-multi-shot-workflows-for-episodic-animation-vfx/) - [TD] [Read] GafferHQ's 2024 introduction to Rupert Thorpe's production workflow, with an embedded YouTube demonstration.
+- [Multi-Shot Workflow on YouTube](https://www.youtube.com/watch?v=jtjDbAHbPuE) - [TD] [Unchecked] Direct video link for the same demonstration; useful after you can light a single scene.
 
 
 Pause at a node connection, predict its job, and rebuild a small piece in Gaffer. [Vimeo Collection Notes](docs/vimeo-resources.md) separates company talks, focused demonstrations and historical development recordings. Historical videos and resources needing further review are tracked separately in [Resource Review](docs/resource-review.md).
 
 ## Examples and Sample Assets
 
-- [Gaffer Examples](https://github.com/ezequielmastrasso/gaffer-examples) - Community shot and asset templates linked by GafferHQ; study a small graph before adapting a production template.
-- [Gaffer Resources](https://www.gafferhq.org/resources/) - Official directory of examples, extensions and community channels.
-- [OpenUSD Sample Assets](https://openusd.org/release/dl_downloads.html#assets) - Pixar sample scenes and links to additional datasets for practising USD handoffs.
-- [USD Working Group Assets](https://github.com/usd-wg/assets) - Example assets and guidelines from the USD Working Group; useful for focused interchange experiments.
+- [Gaffer Examples](https://github.com/ezequielmastrasso/gaffer-examples) - [Both] [Read] Community shot and asset templates linked by GafferHQ; study a small graph before adapting a production template.
+- [Gaffer Resources](https://www.gafferhq.org/resources/) - [Both] [Read] Official directory of examples, extensions and community channels.
+- [OpenUSD Sample Assets](https://openusd.org/release/dl_downloads.html#assets) - [Both] [Read] Pixar sample scenes and links to additional datasets for practising USD handoffs.
+- [USD Working Group Assets](https://github.com/usd-wg/assets) - [Both] [Read] Example assets and guidelines from the USD Working Group; useful for focused interchange experiments.
 
 Begin with bundled GafferBot resources. Check an external asset's license, size, texture paths and material requirements before downloading it. A sample USD scene does not guarantee ready-to-render Arnold materials. This repository links assets instead of redistributing them.
 
@@ -113,16 +113,16 @@ Begin with bundled GafferBot resources. Check an external asset's license, size,
 
 ### Artist Foundations
 
-- [Book of USD](https://remedy-entertainment.github.io/USDBook/) - Artist-oriented explanations of USD terminology and workflows from Remedy Entertainment.
-- [OpenUSD Introduction](https://openusd.org/release/intro.html) - Primary explanation of scene interchange, composition and departmental contributions.
-- [OpenUSD Terms and Concepts](https://openusd.org/release/glossary.html) - Look up prims, layers, stages, references, variants and payloads when they appear in a workflow.
+- [Book of USD](https://remedy-entertainment.github.io/USDBook/) - [Artist] [Read] Artist-oriented explanations of USD terminology and workflows from Remedy Entertainment.
+- [OpenUSD Introduction](https://openusd.org/release/intro.html) - [Both] [Read] Primary explanation of scene interchange, composition and departmental contributions.
+- [OpenUSD Terms and Concepts](https://openusd.org/release/glossary.html) - [Both] [Read] Look up prims, layers, stages, references, variants and payloads when they appear in a workflow.
 
 ### Gaffer Workflow
 
-- [SceneReader](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/SceneReader.html) - Reads a supported scene file into a Gaffer scene for inspection and processing.
-- [USDLayerWriter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html) - Compares base and edited scenes to export representable differences as a USD layer.
-- [SceneWriter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/SceneWriter.html) - Writes a complete scene when an edit-only layer is not what you need.
-- [GafferUSD Node Reference](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferUSD/index.html) - Catalogue of the baseline release's USD-specific nodes.
+- [SceneReader](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/SceneReader.html) - [Both] [Read] Reads a supported scene file into a Gaffer scene for inspection and processing.
+- [USDLayerWriter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html) - [Both] [Read] Compares base and edited scenes to export representable differences as a USD layer.
+- [SceneWriter](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferScene/SceneWriter.html) - [Both] [Read] Writes a complete scene when an edit-only layer is not what you need.
+- [GafferUSD Node Reference](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/GafferUSD/index.html) - [TD] [Read] Catalogue of the baseline release's USD-specific nodes.
 
 Current OpenUSD references can describe features newer than the USD bundled with Gaffer 1.7.3.0. Check Gaffer's actual node and release support before assuming a feature is available.
 
@@ -130,33 +130,33 @@ Current OpenUSD references can describe features newer than the USD bundled with
 
 Optional for your first lighting exercise. Use these when a working scene needs repeated shot variations, automation or performance work.
 
-- [Spreadsheet Tutorial](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html) - Guided setup of a readable table of values for scene variations.
-- [Spreadsheet Concepts](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html) - Explains rows and selection after the first example works.
-- [Contexts](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/Contexts/index.html) - Explains the changing inputs, such as frame or shot variables, that affect graph evaluation.
-- [ContextQuery](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/Gaffer/ContextQuery.html) - Reads context values through a node when you want a visible graph dependency.
-- [Expressions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/ScriptingReference/Expressions/index.html) - Reference for relationships that need an expression rather than a simple fixed value.
-- [Performance Best Practices](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html) - Guidance for efficient graphs after the basic workflow is familiar.
+- [Spreadsheet Tutorial](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html) - [TD] [Read] Guided setup of a readable table of values for scene variations.
+- [Spreadsheet Concepts](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html) - [TD] [Read] Explains rows and selection after the first example works.
+- [Contexts](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/Contexts/index.html) - [TD] [Read] Explains the changing inputs, such as frame or shot variables, that affect graph evaluation.
+- [ContextQuery](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/Gaffer/ContextQuery.html) - [TD] [Read] Reads context values through a node when you want a visible graph dependency.
+- [Expressions](https://www.gafferhq.org/documentation/1.7.3.0/Reference/ScriptingReference/Expressions/index.html) - [TD] [Read] Reference for relationships that need an expression rather than a simple fixed value.
+- [Performance Best Practices](https://www.gafferhq.org/documentation/1.7.3.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html) - [TD] [Read] Guidance for efficient graphs after the basic workflow is familiar.
 
 ## Tools and Integrations
 
-- [Gaffer Source](https://github.com/GafferHQ/gaffer) - Application source, releases, tests and development discussions.
+- [Gaffer Source](https://github.com/GafferHQ/gaffer) - [TD] [Read] Application source, releases, tests and development discussions.
 
 Community render-farm and production-tracking integrations are listed in [Resource Review](docs/resource-review.md) until their current compatibility has been checked. They are not prerequisites for learning to light.
 
 ## References
 
-- [Gaffer 1.7.3.0 Node Reference](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/index.html) - Detailed node controls to consult after identifying the operation you need.
-- [Gaffer 1.7.3.0 Release Notes](https://www.gafferhq.org/documentation/1.7.3.0/ReleaseNotes/index.html) - Version changes to check when a tutorial or scene behaves differently.
-- [Gaffer Controls and Editor Reference](https://www.gafferhq.org/documentation/1.7.3.0/Interface/index.html) - Official interface reference for navigating and arranging the workspace.
+- [Gaffer 1.7.3.0 Node Reference](https://www.gafferhq.org/documentation/1.7.3.0/Reference/NodeReference/index.html) - [Both] [Read] Detailed node controls to consult after identifying the operation you need.
+- [Gaffer 1.7.3.0 Release Notes](https://www.gafferhq.org/documentation/1.7.3.0/ReleaseNotes/index.html) - [Both] [Read] Version changes to check when a tutorial or scene behaves differently.
+- [Gaffer Controls and Editor Reference](https://www.gafferhq.org/documentation/1.7.3.0/Interface/index.html) - [Both] [Read] Official interface reference for navigating and arranging the workspace.
 
 ## Community
 
-- [GafferHQ Discussions](https://github.com/GafferHQ/gaffer/discussions) - Release discussions, questions and shared workflows.
-- [Gaffer Development Mailing List](https://groups.google.com/g/gaffer-dev) - Searchable development and usage discussions with examples from the community.
+- [GafferHQ Discussions](https://github.com/GafferHQ/gaffer/discussions) - [Both] [Read] Release discussions, questions and shared workflows.
+- [Gaffer Development Mailing List](https://groups.google.com/g/gaffer-dev) - [Both] [Read] Searchable development and usage discussions with examples from the community.
 
 ## Related Lists
 
-- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - Broader USD tools, samples and learning resources beyond Gaffer.
+- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - [Both] [Read] Broader USD tools, samples and learning resources beyond Gaffer.
 
 ## Contributing
 
