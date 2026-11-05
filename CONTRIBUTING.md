@@ -28,3 +28,5 @@ Do not copy assets, videos, screenshots or studio material into this repository 
 For a broken or misleading entry, propose a replacement and explain the change. For a tutorial, record the relevant Gaffer and renderer versions. For video instruction, include timestamps only after actually watching that segment.
 
 Follow the [STE Style Guide](docs/ste-style-guide.md) when you write or edit a resource.
+
+Run `node scripts/ste-lint.mjs` to check the wording and resource tags.
