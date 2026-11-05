@@ -1,5 +1,7 @@
 # Learning Path for Maya Lighting Artists
 
+![Set up the renderer. Inspect a scene. Add a light. Check the render. Explore shot variations.](images/start-here.svg)
+
 This is a suggested route through the resource list. Learn one small task at a time and prove it works before adding complexity. It does not require Python for the first scene.
 
 ## 1. Install and Connect the Renderer

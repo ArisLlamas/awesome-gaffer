@@ -1,5 +1,7 @@
 # Maya to Gaffer
 
+![Publish a Maya cache. Read it into Gaffer. Build the scene, assign materials, add lights, and render.](images/maya-to-gaffer.svg)
+
 Use familiar artist questions to find the right Gaffer tool. These mappings describe purpose, not identical behavior.
 
 | Artist question | Maya landmark | Gaffer starting point |
