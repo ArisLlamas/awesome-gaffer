@@ -1,10 +1,10 @@
 # Video Learning Notes
 
-Reviewed September 29, 2026. These are paraphrased findings from accessible English automatic captions and publisher metadata, not a visual watch-through or hands-on compatibility test. Automatic captions can mishear node names; exact clicks, shortcuts and graphs need visual review and reproduction in Gaffer 1.7.6.0 before becoming website instructions. Full transcripts and video files are not redistributed.
+Reviewed September 29, 2026 (version notes checked November 25, 2026). These notes paraphrase public English automatic captions and publisher chapters, not a full visual watch-through or workstation test. Automatic captions can mishear node names; exact clicks, shortcuts, and graphs need visual checks in Gaffer 1.7.7.0 before becoming step-by-step lessons. We do not redistribute full transcripts or video files.
 
 [Back to resources](../README.md#videos-and-demonstrations) · [Practice route](learning-path.md) · [Metadata catalogue](video-catalog.json) · [Vimeo collection](vimeo-resources.md)
 
-The chapter labels and boundaries below come from the publishers. Findings use approximate minute ranges from captions. Exercises are our proposed teaching material, not assignments provided by the speakers.
+The chapter labels and boundaries below come from the publishers. Findings use approximate minute ranges from captions. Exercises are our own practice drills, not assignments from the speakers.
 
 ## Trixter: The Basics
 
@@ -45,7 +45,7 @@ Useful findings:
 - Around 11–13: switch an override branch for a render layer instead of duplicating the entire lighting scene.
 - Around 24–31: a Spreadsheet makes shot settings comparable. Earlier matching rows take priority; unmatched selectors fall back to defaults. Check computed globals rather than trusting one displayed plug value.
 - Around 33–40: camera invisibility, matte treatment and pruning solve different render-layer problems.
-- Around 46–59: boxes can expose useful controls, labels and presets; bypass behavior must be wired deliberately. References support sharing a packaged tool.
+- Around 46–59: boxes can expose useful controls, labels, and presets; wire bypass behavior explicitly inside the box. References let you share a packaged tool.
 - Around 70–80: an expression can derive related image filenames from one exposed choice.
 - Around 87–92: reference-light matching becomes a concrete creative challenge, with camera framing and display/colour preparation part of the work.
 
@@ -75,7 +75,7 @@ Useful findings:
 
 Practice: make one downstream exposure override, then prove the original light remains unchanged and locate the override.
 
-Use [version-pinned setup guidance](arnold-setup.md), not the video's old SDK version or personal colour settings. Gaffer is open source; Arnold has separate licensing. Scene-file access is not assumed free.
+Use [version-pinned setup guidance](arnold-setup.md), not the video's older SDK version or personal color settings. Gaffer uses an open-source license; Arnold requires a separate license. Do not assume the creator's scene files are free.
 
 ## Arvid Schneider: Shading and Lighting
 
@@ -108,7 +108,7 @@ Useful caption ranges: [4:02](https://www.youtube.com/watch?v=6X7Q4pnUiJk&t=242s
 
 Retain the architectural lesson: reusable graphs can package look development, lighting and delivery tasks. The talk explicitly distinguishes open-source Gaffer from Image Engine's proprietary pipeline components. Jabuka, Caribou and production-specific integrations are case studies, not public setup requirements.
 
-Historical warning: statements about missing manipulators, animation controls, light linking, or Universal Scene Description (USD) describe 2016. They must not be used to describe 1.7.6.0. Start beginners with the 2024 tutorials instead.
+Historical warning: statements about missing manipulators, animation controls, light linking, or Universal Scene Description (USD) describe 2016. Do not apply those 2016 limits to Gaffer 1.7.7.0. Start beginners with the 2024 tutorials instead.
 
 ## Historical: ASWF 2023
 
@@ -116,9 +116,9 @@ Historical warning: statements about missing manipulators, animation controls, l
 
 Selected publisher chapters: [Usage 4:26](https://www.youtube.com/watch?v=Edod6s93Ogk&t=266s), [Development 6:26](https://www.youtube.com/watch?v=Edod6s93Ogk&t=386s), [Gaffer 1.3 8:13](https://www.youtube.com/watch?v=Edod6s93Ogk&t=493s), [USD Lux Lights 9:13](https://www.youtube.com/watch?v=Edod6s93Ogk&t=553s).
 
-Useful findings: the opening connects contexts and spreadsheets to sharing one lighting template across shots. Around 3–4 minutes, the speaker separates public downloadable Gaffer from studio integrations. Around 6–8, development, builds and release work are described as public. Around 8–9, colour management, light manipulation and USD work explain the direction of artist-facing development at that time.
+Useful findings: the opening connects contexts and spreadsheets to sharing one lighting template across shots. Around 3–4 minutes, the speaker separates public downloadable Gaffer from studio integrations. Around 6–8, the talk describes public development, builds, and releases. Around 8–9, color management, light manipulation, and USD work explain the artist-facing roadmap of 2023.
 
-Use this for motivation and history. The 2023 survey, release policy, previews and roadmap are dated observations, not current adoption statistics or feature promises. Verify USD operations against the [version references](../README.md#usd-in-gaffer).
+Use this talk for history and motivation. Treat the 2023 survey, release policy, previews, and roadmap as historical snapshots rather than current status. Verify USD features against [USD in Gaffer](../README.md#usd-in-gaffer).
 
 ## How These Findings Improve the Learning Project
 
@@ -134,14 +134,14 @@ These are design proposals informed by the sources above. They are not changes t
 | Why did the wrong shot settings win? | Trixter spreadsheet section | Predict the first matching row and test a deliberate wildcard mistake. |
 | How do I evaluate a procedural material? | Schneider's dragon tutorial | Inspect the mask, make a prediction, change one control and compare images. |
 
-Name the visual task. Link a short segment. Provide a practice scene. Ask for a prediction. Check the result. Mark the lesson complete when the task works. This extends the task-first concerns in [documentation issue #7144](https://github.com/GafferHQ/gaffer/issues/7144).
+Name the visual task, link a short segment, and provide a practice scene. Ask for a prediction, check the result, and mark the lesson complete when the task works. This follows the task-first goals in [documentation issue #7144](https://github.com/GafferHQ/gaffer/issues/7144).
 
-Technical cross-check: the [1.7.6.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. Globals do not have a scene:path variable. Shader networks do not support it for string substitution. Do not apply the per-location examples to every plug.
+Technical cross-check: the [1.7.7.0 Contexts guide](https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/Contexts/index.html) confirms upstream context flow and editor-focus pitfalls. Globals do not have a `scene:path` variable. Shader networks do not support `scene:path` for string substitution. Do not apply per-location examples to every plug.
 
 ## Review Still Needed Before Website Lessons
 
 - Visually review the selected segments and reproduce each exercise in the chosen Gaffer/Arnold versions.
 - Translate studio nodes, shot/layer selectors and private asset paths into small public graphs.
-- Verify exact node names, shortcuts, shader inheritance and colour-management settings against the documentation for Gaffer 1.7.6.0.
+- Verify exact node names, shortcuts, shader inheritance, and color settings against Gaffer 1.7.7.0 documentation.
 - Check asset and helper licenses before redistribution; link original videos rather than copying them.
 - Review Vimeo company talks visually before extracting detailed workflow claims; current notes use publisher descriptions only.

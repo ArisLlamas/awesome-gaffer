@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-05T20:19:28.038Z",
-  "markdownFiles": 15,
-  "resourceEntries": 57,
-  "internalLinks": 71,
-  "externalUrls": 106,
+  "checkedAt": "2026-11-26T04:38:05.406Z",
+  "markdownFiles": 16,
+  "resourceEntries": 101,
+  "internalLinks": 106,
+  "externalUrls": 153,
   "structuralFailures": [],
   "outcomes": [
     {
@@ -17,29 +17,34 @@
       "finalUrl": "https://www.gafferhq.org/"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/"
     },
     {
-      "url": "https://github.com/GafferHQ/gaffer/releases/tag/1.7.6.0",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/InstallingGaffer/index.html",
       "status": 200,
-      "finalUrl": "https://github.com/GafferHQ/gaffer/releases/tag/1.7.6.0"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/InstallingGaffer/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/InstallingGaffer/index.html",
+      "url": "https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/InstallingGaffer/index.html"
+      "finalUrl": "https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/LaunchingGafferFirstTime/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/LaunchingGafferFirstTime/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/LaunchingGafferFirstTime/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/LaunchingGafferFirstTime/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/SettingUpGafferCommand/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/SettingUpGafferCommand/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html"
     },
     {
       "url": "https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html",
@@ -47,94 +52,159 @@
       "finalUrl": "https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Interface/ControlsAndShortcuts/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Interface/ControlsAndShortcuts/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Interface/ControlsAndShortcuts/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Interface/ControlsAndShortcuts/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/AnatomyOfAScene/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/AnatomyOfAScene/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/AnatomyOfAScene/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/AnatomyOfAScene/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/Camera/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/Camera/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/Camera/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/Camera/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/ShaderAssignment.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/AnatomyOfACamera/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/ShaderAssignment.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/AnatomyOfACamera/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/PathFilter.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Group.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/PathFilter.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Group.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Group.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/MergeScenes.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Group.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/MergeScenes.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldLight.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/PathFilter.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldLight.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/PathFilter.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldShader.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Set.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldShader.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Set.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/StandardOptions.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SetFilter.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/StandardOptions.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SetFilter.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/ShaderAssignment.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/ShaderAssignment.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/InteractiveRender.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/StandardAttributes.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/InteractiveRender.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/StandardAttributes.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Outputs.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/StandardOptions.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Outputs.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/StandardOptions.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Catalogue.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Outputs.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/Catalogue.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Outputs.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/LightLinking/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/InteractiveRender.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/LightLinking/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/InteractiveRender.html"
     },
     {
-      "url": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Render.html",
       "status": 200,
-      "finalUrl": "https://help.autodesk.com/view/ARNOL/ENU/?guid=arnold_user_guide_ac_lights_html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Render.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Catalogue.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/Catalogue.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/Gaffer/EditScope.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/Gaffer/EditScope.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/ShaderTweaks.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/ShaderTweaks.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/LightLinking/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/LightLinking/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/RenderPasses.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/RenderPasses.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/RenderPassWedge.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/RenderPassWedge.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferImage/OpenColorIOContext.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferImage/OpenColorIOContext.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldLight.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldLight.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldShader.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldShader.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferArnold/ArnoldOptions.html"
+    },
+    {
+      "url": "https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold_user_guide_ac_lights_html.html",
+      "status": 200,
+      "finalUrl": "https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold_user_guide_ac_lights_html.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferCycles/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferCycles/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferRenderMan/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferRenderMan/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDelight/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDelight/index.html"
     },
     {
       "url": "https://www.youtube.com/watch?v=qJWtai73TB8",
       "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=qJWtai73TB8"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI",
-      "status": 200,
-      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI"
     },
     {
       "url": "https://www.youtube.com/watch?v=lAgBcOFMf5k",
@@ -145,6 +215,21 @@
       "url": "https://www.youtube.com/watch?v=RiPmGDhxjGw",
       "status": 200,
       "finalUrl": "https://www.youtube.com/watch?v=RiPmGDhxjGw"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aKUMRKPbdZI",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=aKUMRKPbdZI"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wRXP4dvSx8Y",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=wRXP4dvSx8Y"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fhoe6RikbJA",
+      "status": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=Fhoe6RikbJA"
     },
     {
       "url": "https://vimeo.com/1131945768",
@@ -168,13 +253,8 @@
     },
     {
       "url": "https://blog.gafferhq.org/demo-multi-shot-workflows-for-episodic-animation-vfx/",
-      "status": 200,
-      "finalUrl": "https://blog.gafferhq.org/demo-multi-shot-workflows-for-episodic-animation-vfx/"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=jtjDbAHbPuE",
-      "status": 200,
-      "finalUrl": "https://www.youtube.com/watch?v=jtjDbAHbPuE"
+      "status": "unresolved",
+      "reason": "TypeError"
     },
     {
       "url": "https://github.com/ezequielmastrasso/gaffer-examples",
@@ -212,54 +292,129 @@
       "finalUrl": "https://openusd.org/release/glossary.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/SceneReader.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SceneReader.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/SceneReader.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SceneReader.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDLayerWriter.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/SceneWriter.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SceneWriter.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferScene/SceneWriter.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferScene/SceneWriter.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferUSD/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDLight.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/GafferUSD/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDLight.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDShader.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/USDShader.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferUSD/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/Contexts/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/Contexts/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/Contexts/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/Contexts/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/Gaffer/ContextQuery.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ContextVariables/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/Gaffer/ContextQuery.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ContextVariables/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/ScriptingReference/Expressions/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/Gaffer/ContextQuery.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/ScriptingReference/Expressions/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/Gaffer/ContextQuery.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/SpreadsheetNode/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/BoxNode/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/BoxNode/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/Expressions/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/Expressions/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/StringSubstitutionSyntax/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/StringSubstitutionSyntax/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/SetExpressions/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/SetExpressions/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/TutorialUsingTheOSLCodeNode/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/TutorialUsingTheOSLCodeNode/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialNodeGraphEditingInPython/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialNodeGraphEditingInPython/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialQueryingAScene/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialQueryingAScene/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialStartupConfig1/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithThePythonScriptingAPI/TutorialStartupConfig1/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDispatch/Wedge.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDispatch/Wedge.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDispatch/LocalDispatcher.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferDispatch/LocalDispatcher.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/PerformanceBestPractices/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/UsingThePerformanceMonitor/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/UsingThePerformanceMonitor/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithImages/AnatomyOfAnImage/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithImages/AnatomyOfAnImage/index.html"
     },
     {
       "url": "https://github.com/GafferHQ/gaffer",
@@ -267,19 +422,69 @@
       "finalUrl": "https://github.com/GafferHQ/gaffer"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/index.html",
+      "url": "https://github.com/GafferHQ/gaffer/wiki",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Reference/NodeReference/index.html"
+      "finalUrl": "https://github.com/GafferHQ/gaffer/wiki"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/ReleaseNotes/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/CommandLineReference/index.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/ReleaseNotes/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/CommandLineReference/index.html"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/Interface/index.html",
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/CommandLineReference/mcp.html",
       "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/Interface/index.html"
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/CommandLineReference/mcp.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferFlamenco/FlamencoDispatcher.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferFlamenco/FlamencoDispatcher.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferTractor/TractorDispatcher.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferTractor/TractorDispatcher.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferML/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferML/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferVDB/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/GafferVDB/index.html"
+    },
+    {
+      "url": "https://github.com/hypothetical-inc/GafferDeadline",
+      "status": 200,
+      "finalUrl": "https://github.com/hypothetical-inc/GafferDeadline"
+    },
+    {
+      "url": "https://github.com/RVXStudio/ayon-gaffer",
+      "status": 200,
+      "finalUrl": "https://github.com/RVXStudio/ayon-gaffer"
+    },
+    {
+      "url": "https://github.com/Toolchefs/atomsGaffer",
+      "status": 200,
+      "finalUrl": "https://github.com/Toolchefs/atomsGaffer"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/NodeReference/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/ReleaseNotes/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/ReleaseNotes/index.html"
+    },
+    {
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/index.html",
+      "status": 200,
+      "finalUrl": "https://www.gafferhq.org/documentation/1.7.7.0/Reference/ScriptingReference/index.html"
     },
     {
       "url": "https://github.com/GafferHQ/gaffer/discussions",
@@ -287,9 +492,24 @@
       "finalUrl": "https://github.com/GafferHQ/gaffer/discussions"
     },
     {
+      "url": "https://discord.gg/sEm8dDw",
+      "status": 200,
+      "finalUrl": "https://discord.com/invite/sEm8dDw"
+    },
+    {
+      "url": "https://www.steakunderwater.com/wesuckless/viewforum.php?f=55",
+      "status": 200,
+      "finalUrl": "https://www.steakunderwater.com/wesuckless/viewforum.php?f=55"
+    },
+    {
       "url": "https://groups.google.com/g/gaffer-dev",
       "status": 200,
       "finalUrl": "https://groups.google.com/g/gaffer-dev"
+    },
+    {
+      "url": "https://blog.gafferhq.org/",
+      "status": "unresolved",
+      "reason": "TypeError"
     },
     {
       "url": "https://github.com/matiascodesal/awesome-openusd",
@@ -317,14 +537,14 @@
       "finalUrl": "https://github.com/GafferHQ/gaffer/issues/7144"
     },
     {
-      "url": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/index.html",
-      "status": 200,
-      "finalUrl": "https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/index.html"
+      "url": "https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/index.html",
+      "status": "unresolved",
+      "reason": "TypeError"
     },
     {
-      "url": "https://github.com/GafferHQ/gaffer/blob/1.7.6.0/python/GafferSceneUI/SceneInspector.py",
+      "url": "https://github.com/GafferHQ/gaffer/blob/1.7.7.0/python/GafferSceneUI/SceneInspector.py",
       "status": 200,
-      "finalUrl": "https://github.com/GafferHQ/gaffer/blob/1.7.6.0/python/GafferSceneUI/SceneInspector.py"
+      "finalUrl": "https://github.com/GafferHQ/gaffer/blob/1.7.7.0/python/GafferSceneUI/SceneInspector.py"
     },
     {
       "url": "https://www.youtube.com/watch?v=6X7Q4pnUiJk",
@@ -342,19 +562,34 @@
       "reason": "TypeError"
     },
     {
-      "url": "https://gaffer.wiki/wiki/Learning_resources",
-      "status": "unresolved",
-      "reason": "TypeError"
-    },
-    {
-      "url": "https://github.com/hypothetical-inc/GafferDeadline",
-      "status": 200,
-      "finalUrl": "https://github.com/hypothetical-inc/GafferDeadline"
-    },
-    {
       "url": "https://github.com/diegogarciahuerta/tk-gaffer",
       "status": 200,
       "finalUrl": "https://github.com/diegogarciahuerta/tk-gaffer"
+    },
+    {
+      "url": "https://github.com/boberfly/GafferOpenCue",
+      "status": 200,
+      "finalUrl": "https://github.com/boberfly/GafferOpenCue"
+    },
+    {
+      "url": "https://github.com/ezequielmastrasso/LDTGaffer",
+      "status": 200,
+      "finalUrl": "https://github.com/ezequielmastrasso/LDTGaffer"
+    },
+    {
+      "url": "https://github.com/kubo-von/GafferHaven",
+      "status": 200,
+      "finalUrl": "https://github.com/kubo-von/GafferHaven"
+    },
+    {
+      "url": "https://github.com/vNicolini/Gaffer-Tools",
+      "status": 200,
+      "finalUrl": "https://github.com/vNicolini/Gaffer-Tools"
+    },
+    {
+      "url": "https://github.com/ImageEngine/practicalDenoising",
+      "status": 200,
+      "finalUrl": "https://github.com/ImageEngine/practicalDenoising"
     },
     {
       "url": "https://example.com/",

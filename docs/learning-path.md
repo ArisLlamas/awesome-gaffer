@@ -2,70 +2,71 @@
 
 ![Set up the renderer. Inspect a scene. Add a light. Check the render. Explore shot variations.](images/start-here.svg)
 
-This is a suggested route through the resource list. Learn one small task at a time and prove it works before adding complexity. It does not require Python for the first scene.
+This route walks you through the resource list one small task at a time. Prove each step works before you add complexity. You do not need Python or an Arnold license for your first scene. Read [Core Concepts Explained Simply](core-concepts.md) whenever a term feels unclear.
 
-## 1. Install and Connect the Renderer
+## 1. Install Gaffer and Render a First Frame
 
-Open the [installation and Arnold resources](../README.md#installation-and-arnold), then follow the [setup checklist](arnold-setup.md).
+Open [Installation and Renderers](../README.md#installation-and-renderers). Install Gaffer on Windows, Linux, or macOS. Built-in Cycles works right away with no extra setup.
 
-Finish line: Arnold nodes appear, Arnold is selected for the scene, and a test image reaches Catalogue. Those are three separate checks.
+If your studio requires Arnold, follow the [Arnold Setup Checklist](arnold-setup.md) after you confirm Gaffer launches cleanly.
+
+Finish line: Gaffer opens, your chosen renderer loads, and a test image reaches **Catalogue**. Treat installation, renderer selection, and image display as three separate checks.
 
 ## 2. Learn the Two Maps
 
-Open [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithScenes/AnatomyOfAScene/index.html), then the [Maya translation](maya-to-gaffer.md).
+Read [Node Graph vs. Scene Hierarchy](core-concepts.md#node-graph-vs-scene-hierarchy), [Anatomy of a Scene](https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithScenes/AnatomyOfAScene/index.html), and [Maya to Gaffer](maya-to-gaffer.md).
 
-Create a Sphere, inspect its hierarchy, then connect it to Transform. View each output. The Graph Editor shows operations; the Hierarchy View shows the scene they produce.
+Create a **Sphere**, inspect its hierarchy, then connect it to **Transform**. Focus each node in turn. The **Graph Editor** shows operations; the **Hierarchy View** shows the 3D scene they build.
 
-Watch the first chapter of [Trixter Basics](video-notes.md#trixter-the-basics), or Schneider's editor/inspection sections in [Introduction and Arnold](video-notes.md#arvid-schneider-introduction-and-arnold). Pin the Viewer to the final scene, then select a shader node and explain why the visible scene remains stable.
+Watch chapter 1 of [Trixter Basics](video-notes.md#trixter-the-basics), or Schneider's inspection sections in [Introduction and Arnold](video-notes.md#arvid-schneider-introduction-and-arnold). Pin the **Viewer** to the bottom node, then select a shader node and confirm the visible scene stays steady.
 
-Finish line: you can find an object path and explain why inspecting an upstream output differs from inspecting the edited output.
+Finish line: You can locate an object path, pin the **Viewer**, and explain why an upstream node shows an earlier state of the scene.
 
 ## 3. Assemble a Tiny Scene
 
-Follow the [GafferBot tutorial](https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html). It uses Cycles and bundled resources. Either complete that tutorial as written first, or use Arnold equivalents deliberately; mixing Cycles shaders with an Arnold render is not a renderer conversion.
+Complete the [GafferBot tutorial](https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/TutorialAssemblingTheGafferBot/index.html) using built-in Cycles first. Do not mix Cycles shaders with an Arnold render; switch both shaders and lights together when you test Arnold later.
 
-Finish line: one asset, one shader, one camera and one light reach the render. Outputs defines the image and Catalogue displays it. Save the .gfr and note its external dependencies.
+Finish line: One asset, one shader, one camera, and one light produce a live image in **Catalogue**. Save the `.gfr` file and note its external cache paths.
 
 ## 4. Light With an Intention
 
-Use the [lighting references](../README.md#lighting-and-look-development). Choose a reference and describe the intended mood in one sentence. Set the key direction first. Change exposure, then source size, one at a time. Add fill only when it solves a visible problem.
+Use [Lighting and Look Development](../README.md#lighting-and-look-development). Pick a reference photo and describe the mood in one sentence. Set the key light angle first. Adjust exposure, then light size, one change at a time. Add fill only when a visible shadow needs lift.
 
-For a worked artistic example, use the lighting chapter of [Schneider's shading and lighting tutorial](video-notes.md#arvid-schneider-shading-and-lighting). Start with the light task; save procedural shading for later. Check the active EditScope and identify where an override is stored.
+Watch the lighting chapter of [Schneider's shading and lighting tutorial](video-notes.md#arvid-schneider-shading-and-lighting). Place an **EditScope** downstream, select it in the **Light Editor**, and confirm your light changes land inside that **EditScope** box.
 
-Finish line: save two lighting versions with the same camera and display settings. Explain what changed. One more exposure stop doubles emitted energy. The displayed pixel value does not always double.
+Finish line: Save two lighting snapshots in **Catalogue** with the same camera and OpenColorIO display transform. Explain what changed. Raising exposure by 1 stop doubles emitted light energy, though the display transform compresses bright highlights.
 
-## 5. Target an Edit
+## 5. Target an Edit and Batch Render
 
-Read ShaderAssignment and PathFilter in [Artist Learning](../README.md#artist-learning). Give two objects different names and apply a material to one. Inspect the downstream paths after grouping.
+Read [Filters and Sets](core-concepts.md#filters-and-sets), plus **ShaderAssignment**, **PathFilter**, **Set**, and **SetFilter** in [Artist Learning](../README.md#artist-learning). Give two objects different names and assign a material to only one. Inspect paths right above the assignment node, especially after a **Group** node.
 
-Use the assignments chapter of [Trixter Basics](video-notes.md#trixter-the-basics). Inspect paths at the input consumed by the assignment, then verify affected objects. Try a named set for membership that several operations share. Schneider's introduction adds the distinction between an inherited shader and an explicit child assignment.
+Watch the assignments chapter of [Trixter Basics](video-notes.md#trixter-the-basics). Then connect a **Render** node to **LocalDispatcher**, add a `Batch > Beauty` output in **Outputs**, and write one EXR frame to disk.
 
-Finish line: only the intended object changes. Deliberately break the filter and diagnose the mismatch.
+Finish line: Only the intended object changes. Break the filter on purpose, diagnose the path mismatch, fix it, and write one final frame to disk.
 
 ## 6. Understand a Scene Handoff
 
-Read the [artist foundations for Universal Scene Description (USD)](../README.md#artist-foundations), then the Gaffer workflow references. Identify a prim, a layer and a stage before exporting changes.
+Read Universal Scene Description (USD) basics in [USD Layers and Scene Files](core-concepts.md#usd-layers-and-scene-files) and [Artist Foundations](../README.md#artist-foundations). Know what a prim, layer, and stage mean before you export changes.
 
-Finish line: explain what SceneReader imports, when SceneWriter writes a full scene, and when USDLayerWriter writes differences. Reload a small composed example before trusting a larger handoff.
+Finish line: Explain what **SceneReader** loads, when **SceneWriter** exports a full scene, and when **USDLayerWriter** writes a small override layer. Reload your exported layer into a fresh graph to verify it.
 
 ## 7. Share a Graph Across Shots
 
-Complete the [Spreadsheet tutorial](https://www.gafferhq.org/documentation/1.7.6.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html). Begin with one light control and two rows. Inspect the selector and default row before introducing a shot context variable.
+Read [Contexts](core-concepts.md#contexts-and-context-variables) and [Spreadsheets](core-concepts.md#spreadsheets), then finish the [Spreadsheet tutorial](https://www.gafferhq.org/documentation/1.7.7.0/WorkingWithTheNodeGraph/TutorialSettingUpASpreadsheet/index.html). Start with one light plug and two rows. Inspect the selector and default row before you add a shot context variable.
 
-Use the context and spreadsheet chapters of [Trixter Intermediate](video-notes.md#trixter-intermediate). Switch two simple light variants before recreating a production template. View downstream of the local context change. Deliberately create a wildcard row that masks a later row, then repair the order. Check computed globals for render settings.
+Watch the context and spreadsheet chapters of [Trixter Intermediate](video-notes.md#trixter-intermediate). Switch two light looks before you study a studio template. Put a wildcard row above a specific row on purpose to see first-match priority, then fix the order.
 
-Finish line: a named row changes one value predictably. You can explain what selects the row, which match wins and what happens when nothing matches.
+Finish line: One named row changes one light value cleanly. You can explain what selects the row, which row wins, and what happens when no row matches.
 
-## 8. Retrieve and Transfer
+## 8. Rebuild Without Notes
 
-After a break, rebuild the core scene without the instructions. Try a different asset, then diagnose one broken scene connection or filter. Record what you could do independently and what still needed a reference.
-
-These finish lines are practice checks, not a certification. The future website's design and full lesson production are deferred until the foundation has been reviewed.
+Take a short break, then rebuild a tiny scene from scratch without instructions. Swap in a different asset, break one filter or camera path on purpose, and fix it with **Scene Inspector**.
 
 ## Optional Next Steps
 
-- Procedural look development: use [Schneider's dragon tutorial](video-notes.md#arvid-schneider-shading-and-lighting) with accessible licensed geometry. Inspect a mask before using it; compare one material change at a time. QuickConnect is optional and requires a separate extension.
-- Reusable artist tools: use the boxes section of [Trixter Intermediate](video-notes.md#trixter-intermediate) to expose a few named controls and test bypass behavior. Introduce expressions only when a useful filename or parameter relationship needs them.
-- Production motivation: browse the [Vimeo company talks](vimeo-resources.md#company-production-talks) after the first render works. They are dated case studies; detailed content review is still pending.
+- **Render passes:** Create two passes with **RenderPasses** (`hero` and `shadow`), vary visibility with a **Spreadsheet** on `${renderPass}`, and dispatch both with **RenderPassWedge**.
+- **Procedural look development:** Practice [Schneider's dragon tutorial](video-notes.md#arvid-schneider-shading-and-lighting) with licensed sample geometry. Inspect a greyscale mask before you mix two materials.
+- **Reusable tools and scripting:** Read the **Box Node** guide and the **Python Scripting API** tutorials in [Technical Learning](../README.md#technical-learning) to package controls and automate repetitive tasks.
+- **Studio case studies:** Browse [Vimeo company talks](vimeo-resources.md#company-production-talks) after your first render works. Treat older talks as architectural context rather than exact 1.7.7.0 steps.
 
-The video notes distinguish caption findings, publisher chapters and our proposed exercises. None of these additions establishes hands-on compatibility with Gaffer 1.7.6.0.
+The video notes separate caption findings, publisher chapters, and proposed drills. None of those notes replace a hands-on test in Gaffer 1.7.7.0.
