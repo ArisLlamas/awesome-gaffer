@@ -1,23 +1,21 @@
-# Validation — November 5, 2026
+# Validation — November 25, 2026
 
-## Gaffer 1.7.6.0 Update
+## Gaffer 1.7.7.0 Adversarial Overhaul
 
-- The list contains 57 resources in the same order as the previous README. The version update changes only URLs that point to a Gaffer version.
-- The catalogue records a task, audience, version, renderer, source type, and evidence status for each resource.
-- The original source URLs and wording round-tripped before the style edits. The generated README now matches its template and catalogue.
-- The versioned Gaffer documentation supports the glossary. The Arnold guide still uses Arnold 7.4.1.0 as an example.
-- The [runtime test log](test-log.md) has no records. This update does not claim a test in Gaffer, Arnold, or a studio environment.
+- Retargeted versioned Gaffer documentation links from 1.7.6.0 to 1.7.7.0.
+- Expanded `data/resources.yml` with Cycles, Arnold, RenderMan, 3Delight, batch rendering, EditScope, RenderPasses, and OpenColorIO references.
+- Added full Python API, OSL, CLI, MCP, community Discord, forum, and active 2026 integration links.
+- Removed the dead `gaffer.wiki` link and the redundant YouTube duplicate. Replaced the thin `Interface/index.html` stub and the unchecked Arnold SPA link.
+- Added [Core Concepts Explained Simply](core-concepts.md) plus inline plain-English explainers across `README.md`.
+- Removed the banned-word bypass from `scripts/ste-lint.mjs` and resolved all passive-voice and STE lint warnings.
+- The [runtime test log](test-log.md) stays empty until someone completes hands-on workstation tests in Gaffer 1.7.7.0.
 
 ## Source and Local Checks
 
-The [link report](link-check.json) records the latest external check. An HTTP response confirms access. It does not confirm that an example works.
+The [link report](link-check.json) records the latest external check. An HTTP 200 confirms reachability, not hands-on runtime compatibility.
 
-The local checks cover links, duplicate resource URLs, README generation, and selected rules from the [STE Style Guide](ste-style-guide.md). Lint warnings identify wording for a person to review.
+Local checks verify README generation (`build-readme.mjs --check`), internal links and anchors (`check-links.mjs --local`), duplicate resource URLs, and ASD-STE100 rules (`ste-lint.mjs`).
 
 ## Video Evidence
 
-The 2026-09-29 review used automatic YouTube captions and publisher metadata. It used only publisher details for the Vimeo collection. The [Video Learning Notes](video-notes.md) and [Vimeo Collection Notes](vimeo-resources.md) give the evidence limits.
-
-The project lists older recordings for historical context. It does not use their feature status, setup steps, or roadmaps as evidence for Gaffer 1.7.6.0.
-
-The final pass returned 104 of 106 links. The historical GafferBot article and Gaffer Wiki did not respond in that pass. Both responded in the earlier pass.
+The September 29, 2026 review inspected automatic YouTube captions and publisher metadata, plus Vimeo publisher descriptions. The November 25, 2026 pass verified YouTube oEmbed metadata for the February 2026 macOS install walkthroughs. See [Video Learning Notes](video-notes.md) and [Vimeo Collection Notes](vimeo-resources.md) for evidence limits.

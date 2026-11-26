@@ -30,7 +30,7 @@ for (const file of files) {
     if (warning) warnings++; else errors++;
     console.log(file + ':' + line + ': ' + (warning ? 'warning: ' : '') + message);
   };
-  let fence, section = '', parts = [], count = 0, start = 0, allowance = file === 'README.md' ? 1 : 0;
+  let fence, section = '', parts = [], count = 0, start = 0;
   const expanded = new Set();
   const flush = () => {
     if (!parts.length) return;
@@ -72,7 +72,6 @@ for (const file of files) {
     for (const cell of cells) {
       let s = prose(cell).replace(/^\s*(?:#+|[-*]|\d+\.|\[[ xX]\])\s*/g, '').trim();
       if (!words(s).length) continue;
-      if (allowance && /\bversion baseline\b/i.test(s)) { s = s.replace(/\bversion baseline\b/i, 'version target'); allowance--; }
       for (const term of config.banned) if (new RegExp('\\b' + term + '\\b', 'i').test(s)) report(n, 'Avoid "' + term + '".');
       for (const [abbr, full] of Object.entries(config.acronym)) {
         const use = s.search(new RegExp('\\b' + abbr + 's?\\b'));

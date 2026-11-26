@@ -2,26 +2,27 @@
 
 ## Current Direction
 
-The working name is awesome-gaffer. This repository is the resource and learning foundation. Website redesign and deployment are deferred while Aris researches design. The previous Gaffer Atelier website is a separate prototype; it is not the current naming or design direction.
+The working name is `awesome-gaffer`. This repository serves as the resource and learning foundation. Aris plans to revisit website redesign and deployment after reviewing this foundation. The older Gaffer Atelier prototype remains a separate experiment.
 
 ## Structure Adopted
 
-From Awesome: a clear scope, Contents, categorized links, one useful sentence per resource, contribution criteria, a suitable content license and careful curation.
+From Awesome: a clear scope, table of contents, categorized links, one useful description per entry, contribution rules, a CC0 license, and careful selection.
 
-From Awesome OpenUSD: a plain-language introduction, artist and technical learning separated, example assets, tools and references. Gaffer-specific additions are the Maya learning route, lighting emphasis and Arnold setup checklist.
+From Awesome OpenUSD: a plain-language introduction, separate artist and technical tracks, sample assets, tools, and references. Gaffer-specific additions include the Maya mapping, plain-English concept explainers, lighting path, and Arnold setup checklist.
 
-Awesome is a resource-list convention, not a proven method for learning software. The learning route is our editorial proposal. Existing learning research can inform later lessons, but a source directory alone is not an interactive course.
+Awesome is a resource-list format, not a complete course by itself. The learning path and concept explainers organize the links into a practical order for new artists and technical directors (TDs).
 
 ## Carry Forward From Issue 7144
 
-[GafferHQ issue #7144](https://github.com/GafferHQ/gaffer/issues/7144) argues for practical examples showing when to use nodes before explaining parameters. It also highlights artist confusion around object inspection, globals, expressions and tables.
+[GafferHQ issue #7144](https://github.com/GafferHQ/gaffer/issues/7144) calls for practical examples that explain *when* to use nodes before listing parameters. It also flags artist confusion around object inspection, globals, expressions, and tables.
 
-Use those needs to prioritize resources and future lessons. A future node example must specify the task, versions, complete graph, expected result and diagnosis steps. Do not describe a diagram or generated .gfr as tested until it has been opened and checked in Gaffer.
+Use those needs to guide future examples. Every future node lesson must name the task, Gaffer version, complete graph, expected image, and troubleshooting steps. Never mark a diagram or `.gfr` file as `Tested` until someone opens and checks it in Gaffer.
 
 ## Next Foundation Review
 
-Aris can review the learning order and recommend resources he has used. Studio-specific Arnold instructions remain a known content gap. Use this foundation as input for future design research. Ask for review of any design before you adopt it.
+Aris can review the learning order and add personal favorite tutorials. Studio-specific Arnold launcher steps remain an internal gap in [Open Questions](open-questions.md).
 
-## Video Research Added September 29, 2026
+## Research Updates
 
-The four supplied 2024 artist tutorials are in the main resource list; the 2016 and 2023 talks stay historical. [Video Learning Notes](video-notes.md) records caption findings, chapter links and proposed tasks; [Vimeo Collection Notes](vimeo-resources.md) records company and development resources with publisher-metadata evidence limits. The learning path now includes editor focus, targeted assignments, edit provenance and Spreadsheet debugging before production templates.
+- **September 29, 2026:** Added the four 2024 artist tutorials, [Video Learning Notes](video-notes.md), and [Vimeo Collection Notes](vimeo-resources.md), keeping 2016 and 2023 talks labeled as historical.
+- **November 25, 2026:** Completed an adversarial review targeting Gaffer 1.7.7.0. Added [Core Concepts Explained Simply](core-concepts.md), inline explainers, Cycles-first onboarding, and macOS support. Added batch rendering, EditScope, RenderPasses, Python API, OSL, Discord, forum, and active 2026 integration links.

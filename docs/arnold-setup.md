@@ -1,20 +1,22 @@
 # Arnold Setup Checklist
 
-Version: Gaffer 1.7.6.0. Follow the [version-pinned official setup guide](https://www.gafferhq.org/documentation/1.7.6.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) and your studio's approved renderer requirements.
+Version: Gaffer 1.7.7.0. Follow the [version-pinned official setup guide](https://www.gafferhq.org/documentation/1.7.7.0/GettingStarted/ConfiguringGafferForThirdPartyTools/index.html) and your studio's renderer requirements.
+
+**Tip for first-time learners:** Gaffer ships with the free Cycles renderer built in. Complete the GafferBot tutorial with Cycles first if you do not have an Arnold license yet.
 
 ## Install Gaffer
 
-- [ ] Download the Windows or Linux archive from the [1.7.6.0 release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.6.0).
-- [ ] Extract the complete package to a location you can use.
+- [ ] Download the Windows, Linux, or macOS archive from the [Gaffer 1.7.7.0 release](https://github.com/GafferHQ/gaffer/releases/tag/1.7.7.0).
+- [ ] Extract the complete package to a directory you can read and run.
 - [ ] On Windows, install the required Microsoft Visual C++ Redistributable.
-- [ ] Launch `bin/gaffer.cmd` on Windows or `bin/gaffer` on Linux.
+- [ ] Launch `bin/gaffer.cmd` on Windows, or `bin/gaffer` on Linux and macOS.
 
 ## Install and Connect Arnold
 
-- [ ] Obtain a compatible standalone Arnold distribution from Autodesk or the studio software team. The guide uses Arnold 7.4.1.0 as an example. Confirm compatibility before you choose another version.
-- [ ] Set `ARNOLD_ROOT` to the Arnold installation root, not the `bin` directory or a Maya plug-in file.
-- [ ] Close Gaffer and launch again from an environment containing that setting.
-- [ ] Confirm that Arnold nodes appear in the Graph Editor creation menu.
+- [ ] Obtain a compatible standalone Arnold distribution from Autodesk or your studio software team. The official 1.7.7.0 guide uses Arnold 7.4.1.0 as an example. Confirm compatibility before you pick another version.
+- [ ] Set `ARNOLD_ROOT` to the Arnold installation root, not the `bin` folder or a Maya plug-in file.
+- [ ] Close Gaffer and launch again from an environment that contains `ARNOLD_ROOT`.
+- [ ] Confirm that Arnold nodes appear in the **Graph Editor** creation menu.
 
 Windows Command Prompt example; replace the path:
 
@@ -26,7 +28,7 @@ Open a new Command Prompt, then verify and launch from it:
 
 ```bat
 echo %ARNOLD_ROOT%
-C:\software\gaffer-1.7.6.0-windows\bin\gaffer.cmd
+C:\software\gaffer-1.7.7.0-windows\bin\gaffer.cmd
 ```
 
 Linux bash example for a current-shell test; replace both paths:
@@ -34,35 +36,44 @@ Linux bash example for a current-shell test; replace both paths:
 ```bash
 export ARNOLD_ROOT=/opt/solidangle/arnold-7.4.1.0
 echo "$ARNOLD_ROOT"
-/opt/gaffer-1.7.6.0-linux/bin/gaffer
+/opt/gaffer-1.7.7.0-linux/bin/gaffer
 ```
 
-For persistence, use the startup file or launcher configuration that your environment actually reads. Setting a variable in one terminal does not guarantee a desktop launcher inherits it.
+macOS zsh example for a current-shell test; replace both paths:
+
+```zsh
+export ARNOLD_ROOT=/Applications/solidangle/arnold-7.4.1.0
+echo "$ARNOLD_ROOT"
+/opt/gaffer-1.7.7.0-macos/bin/gaffer
+```
+
+For persistence, add the export to the startup file or studio launcher that your system actually reads. Setting a variable in one terminal does not guarantee a desktop shortcut inherits it.
 
 ## Select Arnold and View an Image
 
-- [ ] Assemble geometry, an Arnold shader, a camera and an Arnold light. Include the camera and light in the scene sent to render.
-- [ ] In StandardOptions, enable the render-camera option and use the camera's actual downstream path.
-- [ ] Enable Default Renderer in StandardOptions and choose Arnold.
-- [ ] Add ArnoldOptions for renderer-specific controls. This node does not select the renderer.
-- [ ] Add **Outputs** to the scene chain. Choose `Interactive > Beauty` with its add button.
-- [ ] Connect to InteractiveRender and choose Default, or explicitly choose Arnold.
-- [ ] Create Catalogue from the image node menu. It displays images and is not connected to the scene chain.
-- [ ] Start InteractiveRender, focus Catalogue in the Viewer and frame its live image.
-- [ ] Save a working starter .gfr and record asset dependencies.
+- [ ] Assemble geometry, an **ArnoldShader**, a camera, and an **ArnoldLight**. Include the camera and light in the scene chain.
+- [ ] In **StandardOptions**, enable the render camera plug and enter the camera's exact downstream path.
+- [ ] Enable Default Renderer in **StandardOptions** and pick Arnold.
+- [ ] Add **ArnoldOptions** for Arnold sampling and ray depth controls. This node does not select the renderer.
+- [ ] Add **Outputs** to the scene chain. Pick `Interactive > Beauty` from its add button.
+- [ ] Connect to **InteractiveRender** and pick Default, or pick Arnold explicitly.
+- [ ] Create **Catalogue** from the Image menu. It displays images and does not connect to the 3D scene chain.
+- [ ] Start **InteractiveRender**, focus **Catalogue** in the **Viewer**, and press `F` to frame the live image.
+- [ ] Save a working starter `.gfr` file and note external asset paths.
 
 ## Diagnose the Right Problem
 
 | Symptom | Check |
-|---|---|
-| Arnold nodes missing | Installation root, supported version, inherited environment and startup errors. |
-| Another renderer is used | StandardOptions default and the render node's explicit choice. |
-| No image arrives | Outputs configuration, running render state and Catalogue viewing. |
-| Black or empty image | Geometry, camera path, framing, assigned shader and included light. |
-| Watermark or licensing error | Current [Autodesk licensing guidance](https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html) or your administrator. |
+| --- | --- |
+| Arnold nodes missing | Installation root, supported Arnold version, inherited environment, and terminal startup errors. |
+| Gaffer picks another renderer | **StandardOptions** Default Renderer plug and the render node's renderer plug. |
+| No image arrives | **Outputs** configuration, active render state, and **Viewer** focus on **Catalogue**. |
+| Black or empty image | Geometry path, camera path, framing, assigned shader, and included light. |
+| Watermark or licensing error | Check [Arnold Licensing](https://help.autodesk.com/cloudhelp/ENU/AR-Core/files/arnold-setup/arnold_user_guide_arnold_setup_ac_licensing_home_html.html) or ask your administrator. |
+| Colors look dark or too contrasty | Check Script Settings OpenColorIO config (ACES 1.3 Studio default) and texture input color spaces. |
 
 ## Studio Steps Awaiting Input
 
-See [Open Questions](open-questions.md) for details to confirm with the studio.
+See [Open Questions](open-questions.md) for studio launcher details to confirm internally.
 
-The official guide supports this checklist. The project does not include a workstation test.
+The official Gaffer 1.7.7.0 guide supports this checklist. The project does not include a hands-on workstation test.

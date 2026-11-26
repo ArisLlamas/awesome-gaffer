@@ -11,7 +11,7 @@ This guide uses the main rules of ASD-STE100 (Simplified Technical English). We 
 ### Sentences
 
 1. **Keep sentences short.** Instructions: 20 words or fewer. Descriptions: 25 words or fewer.
-2. **Write one instruction in each sentence.** Use the imperative. Example: "Open the Node Graph."
+2. **Write one instruction in each sentence.** Use the imperative. Example: "Open the **Graph Editor**."
 3. **Use the active voice.** Write "The node makes a layer", not "A layer is made."
 4. **Use simple tenses.** Use the present, past, or future simple. Do not use perfect or continuous forms.
 5. **Put the condition first.** Write "If the render is black, check the camera."
@@ -25,8 +25,8 @@ This guide uses the main rules of ASD-STE100 (Simplified Technical English). We 
 10. **Use the articles "a", "an", and "the".**
 11. **Do not use figurative words.** Avoid "curated", "baseline", "under the hood", "deep dive", "sweet spot".
 12. **Write acronyms in full on first use.** Example: "Universal Scene Description (USD)".
-13. **Write the exact name of each UI element, in bold.** Example: **Scene Hierarchy**.
-14. **Give versions as numbers.** Example: "Gaffer 1.7.3.0", not "the latest Gaffer".
+13. **Write the exact name of each UI element, in bold.** Example: **Hierarchy View**.
+14. **Give versions as numbers.** Example: "Gaffer 1.7.7.0", not "the latest Gaffer".
 
 ### Paragraphs and lists
 
@@ -57,7 +57,7 @@ Before you add a rule, remove or merge an old one.
 ## Resource entry format
 
 ```
-- [Resource Name](https://example.com/) - Short sentence in the active voice. Say what task it helps with.
+- [Resource Name](https://example.com/) - [Both] [Read] Short sentence in the active voice. Say what task it helps with.
 ```
 
 Add a level tag at the start of the description:
@@ -71,34 +71,34 @@ Add a level tag at the start of the description:
 | Before | After |
 |---|---|
 | Explains what a scene contains, helping separate node operations from resulting objects and global settings. | Describes the parts of a scene. Shows the difference between nodes, scene objects, and global settings. |
-| Learn to inspect the hierarchy, select a camera and target a material assignment. | Open the **Scene Hierarchy**. Find the camera. Select the location that gets the material. |
+| Learn to inspect the hierarchy, select a camera and target a material assignment. | Open the **Hierarchy View**. Find the camera. Select the location that gets the material. |
 | Check the requirements for your exact release before installing a renderer or integration. | Before you install a renderer, read the requirements for your Gaffer version. |
 | You can keep modelling and animating in Maya, publish geometry or animation, then use Gaffer to assemble a scene, assign materials, light it and render. | You can model and animate in Maya. Publish the geometry or animation from Maya. Then use Gaffer to build the scene, assign materials, add lights, and render. |
-| A node graph records the operations; the scene hierarchy shows the objects those operations produce. | The **Node Graph** shows the operations. The **Scene Hierarchy** shows the objects that the operations make. |
+| A node graph records the operations; the scene hierarchy shows the objects those operations produce. | The **Graph Editor** shows the operations. The **Hierarchy View** shows the locations that the operations make. |
 
 ## Glossary (draft)
 
-Check each term against the Gaffer 1.7.3.0 documentation before you publish it.
+See [Gaffer Glossary](glossary.md) for the verified Gaffer 1.7.7.0 definitions and [Core Concepts Explained Simply](core-concepts.md) for plain-English analogies.
 
 | Term | Meaning |
 |---|---|
-| Node | A block in the Node Graph. It does one operation. |
+| Node | A block in the node graph. It does one operation. |
 | Plug | A connection point or value field on a node. |
-| Node Graph | The editor where you connect nodes. |
+| Graph Editor | The editor where you connect nodes. |
 | Scene | The objects, lights, cameras, and settings that pass between nodes. |
-| Scene location | One position in the Scene Hierarchy. Example: `/world/camera`. |
-| Scene Hierarchy | The tree of scene locations. |
+| Scene location | One position in the scene hierarchy. Example: `/world/camera`. |
+| Hierarchy View | The editor that shows the tree of scene locations. |
 | Filter | A node that selects scene locations for another node to change. |
 | Context | The named values (for example, the frame) that a node reads when it computes. |
 | Spreadsheet | A node that holds a table of values. |
-| Catalogue | The place where Gaffer keeps rendered images. |
-| Renderer | The program that makes an image from the scene. Example: Arnold. |
+| Catalogue | The image node where Gaffer keeps rendered images. |
+| Renderer | The program that makes an image from the scene. Example: Arnold or Cycles. |
 
 ## Pull request checklist
 
 - [ ] Each sentence follows rules 1 to 6.
 - [ ] The entry has a status (rule 19). `Tested` has a record in `docs/test-log.md`.
-- [ ] The entry is in `data/resources.yml`, and the README is regenerated.
+- [ ] Add the entry to `data/resources.yml` and run `node scripts/build-readme.mjs`.
 - [ ] `node scripts/ste-lint.mjs` passes.
 - [ ] Each term matches the glossary.
 - [ ] The entry has a level tag: `[Artist]`, `[TD]`, or `[Both]`.

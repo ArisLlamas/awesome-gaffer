@@ -1,37 +1,39 @@
 # Curation Notes
 
-Reviewed September 29, 2026. Main scope: Gaffer learning and practical references for artists, with a lighting-first route for Maya users. Technical resources are separate so beginners can defer them.
+Reviewed November 25, 2026. Main scope: practical Gaffer learning resources and references for new artists, lighting artists, and technical directors (TDs). Technical topics stay grouped so beginners can skip them until their first render works.
 
 ## Selection Standard
 
-Include a resource when it answers a specific task, has an inspectable source and adds value beyond another entry. Prefer original authors and official documentation. Describe why to open it rather than repeating a product slogan. Limit the main list to useful starting points; this is not a complete inventory of everything mentioning Gaffer.
+Include a resource when it solves a clear task, loads reliably, and adds value beyond other entries. Prefer official documentation and original authors. State what task the resource helps with instead of repeating marketing copy. Keep the main list focused on strong starting points rather than every page that mentions Gaffer.
 
-Pin Gaffer documentation to 1.7.6.0 where practical. Label historical instruction. Do not infer current compatibility from an unarchived GitHub repository. Current OpenUSD material explains concepts but does not establish support in Gaffer's bundled version.
+Pin Gaffer documentation to 1.7.7.0 where practical. Label historical instruction clearly. Do not assume an unarchived GitHub repository supports Gaffer 1.7.7.0 without checking recent commits and tests. Current OpenUSD docs explain concepts well, but they do not prove support in Gaffer's bundled Universal Scene Description (USD) version.
 
 ## Evidence Levels
 
-- Source reviewed: the page, documentation or repository description supports the entry.
-- Link checked: the URL responded during the recorded check.
-- Hands-on checked: someone reproduced the relevant task and recorded versions and results.
+- **Read:** We opened the linked page, repository, publisher metadata, or captions and confirmed the description matches.
+- **Unchecked:** Access or evidence remains incomplete.
+- **Tested:** Someone reproduced the task on a workstation and added a row in [Runtime Test Log](test-log.md).
 
-The current foundation has source review and link checks. It does not claim hands-on review of all tutorials, assets, integrations or renderer setup. The six supplied YouTube videos now have publisher metadata and selected automatic-caption review, documented in [Video Learning Notes](video-notes.md). The GafferHQ Vimeo inventory uses public titles and publisher descriptions only; detailed video review and all graph reproduction remain pending. Full transcripts are not redistributed.
+This repository currently relies on source inspection and automated link checks. It does not claim hands-on workstation testing for every tutorial, asset, or studio integration. Full video transcripts are not copied into this repo.
 
 ## Sources for the List Format
 
-- [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md) - [Both] [Read] Curation, useful descriptions, scope, licensing and contribution guidance.
-- [Creating a List](https://github.com/sindresorhus/awesome/blob/main/create-list.md) - [Both] [Read] List creation and maturation guidance.
-- [Awesome List Requirements](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) - [Both] [Read] Naming, contents, consistent entries and related conventions.
-- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - [Both] [Read] Structural reference for introductions, artist/technical learning, samples and references.
+- [Awesome Manifesto](https://github.com/sindresorhus/awesome/blob/main/awesome.md) - [Both] [Read] Scope, clear descriptions, licensing, and contribution conventions.
+- [Creating a List](https://github.com/sindresorhus/awesome/blob/main/create-list.md) - [Both] [Read] List structure and maintenance guidance.
+- [Awesome List Requirements](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) - [Both] [Read] Naming, contents, consistent entries, and review criteria.
+- [Awesome OpenUSD](https://github.com/matiascodesal/awesome-openusd) - [Both] [Read] Structural inspiration for separating artist learning, technical learning, samples, and references.
 
-This independent, AI-assisted foundation has not been submitted to the upstream Awesome index. Its submission rules include human curation and maturity requirements; an Awesome-style repository does not establish upstream eligibility or acceptance.
+We have not submitted this independent repository to the upstream Awesome index. Following the Awesome format does not imply upstream listing.
 
 ## Check the Repository
 
 With Node.js 20 or newer:
 
+    node scripts/build-readme.mjs --check
     node scripts/check-links.mjs --local
+    node scripts/ste-lint.mjs
     node scripts/check-links.mjs
 
-The script checks Markdown file links and heading anchors, entry formatting, required documents, duplicate main-list resource URLs and external HTTP responses. It writes `docs/link-check.json` for the full check. HTTP success is not a content-quality or runtime-compatibility test. See [Validation](validation.md) for the checked state.
+The scripts check README sync, local links and anchors, entry format, duplicate URLs, STE wording rules, and external HTTP responses. The full check writes `docs/link-check.json`. HTTP 200 confirms reachability, not runtime compatibility. See [Validation](validation.md) for the latest check summary.
 
-The original list text is covered by the repository's CC0 license. External resources keep their own licenses; linking does not grant redistribution rights.
+The repository's CC0 license covers original text here. Every linked external resource keeps its own license; linking grants no redistribution rights.
